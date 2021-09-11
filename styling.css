@@ -1,0 +1,307 @@
+.mc{
+    image-rendering: crisp-edges;
+    background-size: 64px;
+    height: 64px;
+    width: 64px;
+}
+
+/* below are all item images */
+.Em{
+    background-image: url('images/minecraft textures/item/emerald.png');
+}
+.SpiderEye{
+    background-image: url('images/minecraft textures/item/spider_eye.png');
+}
+.PoisonPotato{
+    background-image: url('images/minecraft textures/item/poisonous_potato.png');
+}
+.RottenFlesh{
+    background-image: url('images/minecraft textures/item/rotten_flesh.png');
+}
+.Sugar{
+    background-image: url('images/minecraft textures/item/sugar.png');
+}
+.Quartz{
+    background-image: url('images/minecraft textures/item/quartz.png');
+}
+.Coal{
+    background-image: url('images/minecraft textures/item/coal.png');
+}
+.WBucket{
+    background-image: url('images/minecraft textures/item/water_bucket.png');
+}
+.SBucket{
+    background-image: url('images/minecraft textures/item/powder_snow_bucket.png');
+}
+.EBucket{
+    background-image: url('images/minecraft textures/item/bucket.png');
+}
+.WBottle{
+    background-image: url('images/waterbottle.png');
+}
+.PDripstone{
+    background-image: url('images/minecraft textures/item/pointed_dripstone.png');
+}
+.Apple{
+    background-image: url('images/minecraft textures/item/apple.png');
+}
+.GApple{
+    background-image: url('images/minecraft textures/item/golden_apple.png');
+}
+.Diamond{
+    background-image: url('images/minecraft textures/item/diamond.png');
+}
+.Qn{
+    background-image: url('images/minecraft textures/item/gold_nugget.png');
+}
+
+.IHelm{
+    background-image: url('images/minecraft textures/item/iron_helmet.png');
+}
+.IChest{
+    background-image: url('images/minecraft textures/item/iron_chestplate.png');
+}
+.ILegs{
+    background-image: url('images/minecraft textures/item/iron_leggings.png');
+}
+.IBoots{
+    background-image: url('images/minecraft textures/item/iron_boots.png');
+}
+.DHelm{
+    background-image: url('images/minecraft textures/item/diamond_helmet.png');
+}
+.DChest{
+    background-image: url('images/minecraft textures/item/diamond_chestplate.png');
+}
+.DLegs{
+    background-image: url('images/minecraft textures/item/diamond_leggings.png');
+}
+.DBoots{
+    background-image: url('images/minecraft textures/item/diamond_boots.png');
+}
+.GHelm{
+    background-image: url('images/minecraft textures/item/golden_helmet.png');
+}
+.GChest{
+    background-image: url('images/minecraft textures/item/golden_chestplate.png');
+}
+.GLegs{
+    background-image: url('images/minecraft textures/item/golden_leggings.png');
+}
+.GBoots{
+    background-image: url('images/minecraft textures/item/golden_boots.png');
+}
+.CHelm{
+    background-image: url('images/minecraft textures/item/chainmail_helmet.png');
+}
+.CChest{
+    background-image: url('images/minecraft textures/item/chainmail_chestplate.png');
+}
+.CLegs{
+    background-image: url('images/minecraft textures/item/chainmail_leggings.png');
+}
+.CBoots{
+    background-image: url('images/minecraft textures/item/chainmail_boots.png');
+}
+.Bread{
+    background-image: url('images/minecraft textures/item/bread.png');
+}
+.BPotato{
+    background-image: url('images/minecraft textures/item/baked_potato.png');
+}
+.PumpkinPie{
+    background-image: url('images/minecraft textures/item/pumpkin_pie.png');
+}
+.Cookies{
+    background-image: url('images/minecraft textures/item/cookie.png');
+}
+.Cake{
+    background-image: url('images/minecraft textures/item/cake.png');
+}
+.SweetBerries{
+    background-image: url('images/minecraft textures/item/sweet_berries.png');
+}
+.HBottle{
+    background-image: url('images/minecraft textures/item/honey_bottle.png');
+}
+.HCombs{
+    background-image: url('images/minecraft textures/item/honeycomb.png');
+}
+.GlowBerries{
+    background-image: url('images/minecraft textures/item/glow_berries.png');
+}
+.Sticks{
+    background-image: url('images/minecraft textures/item/stick.png');
+}
+.String{
+    background-image: url('images/minecraft textures/item/string.png');
+}
+.Bow{
+    background-image: url('images/minecraft textures/item/bow.png');
+}
+.Candles{
+    background-image: url('images/candlesgif.png');
+    background-size: contain;
+    width: 32px;
+    height: 64px;
+}
+.Beds{
+    background-image: url('images/candlesgif.png');
+    background-size: contain;
+    width: 32px;
+    height: 64px;
+}
+.CChicken{
+    background-image: url('images/minecraft textures/item/cooked_chicken.png');
+}
+.CMutton{
+    background-image: url('images/minecraft textures/item/cooked_mutton.png');
+}
+.CPork{
+    background-image: url('images/minecraft textures/item/cooked_porkchop.png');
+}
+.CRabbit{
+    background-image: url('images/minecraft textures/item/cooked_rabbit.png');
+}
+.Steak{
+    background-image: url('images/minecraft textures/item/cooked_beef.png');
+}
+.IIngot{
+    background-image: url('images/minecraft textures/item/iron_ingot.png');
+}
+.CIngot{
+    background-image: url('images/minecraft textures/item/copper_ingot.png');
+}
+.GIngot{
+    background-image: url('images/minecraft textures/item/gold_ingot.png');
+}
+.NIngot{
+    background-image: url('images/minecraft textures/item/netherite_ingot.png');
+}
+.CBow{
+    background-image: url('images/minecraft textures/item/crossbow_standby.png');
+}
+/* i want to pull gifs from online instead of using my own local machine images */
+.bookGif{ 
+    background-image: url('https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/20/Invicon_Enchanted_Book.gif/revision/latest/scale-to-width-down/32?cb=20210806192958.gif');
+}
+
+/* below are all block images */
+.RedMush{
+    background-image: url('images/minecraft textures/block/red_mushroom.png');
+}
+.BrownMush{
+    background-image: url('images/minecraft textures/block/brown_mushroom.png');
+}
+.smallAB{
+    background-image: url('images/minecraft textures/block/small_amethyst_bud.png');
+}
+.medAB{
+    background-image: url('images/minecraft textures/block/medium_amethyst_bud.png');
+}
+.bigAB{
+    background-image: url('images/minecraft textures/block/large_amethyst_bud.png');
+}
+.amCluster{
+    background-image: url('images/minecraft textures/block/amethyst_cluster.png');
+}
+.amBlock{
+    background-image: url('images/minecraft textures/block/amethyst_block.png');
+}
+.Calcite{
+    background-image: url('images/minecraft textures/block/calcite.png');
+}
+.Tuff{
+    background-image: url('images/minecraft textures/block/tuff.png');
+}
+.cobDS{
+    background-image: url('images/minecraft textures/block/cobbled_deepslate.png');
+}
+.Dripstone{
+    background-image: url('images/minecraft textures/block/dripstone_block.png');
+}
+.Diorite{
+    background-image: url('images/minecraft textures/block/diorite.png');
+}
+.Andesite{
+    background-image: url('images/minecraft textures/block/andesite.png');
+}
+.CobStone{
+    background-image: url('images/minecraft textures/block/cobblestone.png');
+}
+.BlackStone{
+    background-image: url('images/minecraft textures/block/blackstone.png');
+}
+.Granite{
+    background-image: url('images/minecraft textures/block/granite.png');
+}
+.SnowBlock{
+    background-image: url('images/minecraft textures/block/snow.png');
+}
+.Et{
+    background-image: url('images/minecraft textures/block/sunflower_front.png');
+}
+body {
+    background-color: #FDAD77 ;
+}
+td{
+    /* background-color: rebeccapurple; */
+    border: 2px solid rgb(153, 153, 153);
+}
+th{
+    font-size: xx-large;
+    border: 4px solid black;
+    /* vertical-align: auto; */
+    padding: 10px;
+}
+.tablewrapper{
+    height: 600px;
+    overflow: auto;
+    overflow-y: scroll;
+}
+.main{
+/* background-color: darkslateblue; */
+padding: 10px;
+display: flex;
+margin: 0 auto;
+/* justify-content: space-between; */
+width: max-content;
+/* height: max-content; */
+}
+
+.florists, .oldfishers{
+    display: inline-flex;
+    /* overflow-inline: auto; */
+    overflow-x: hidden;
+}
+
+.images{
+    background-color: #6d6d6d;
+    padding: 10px;
+    /* width: fit-content; */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Em{
+    height: fit-content;
+    width: fit-content;
+    
+}
+.trades{
+    display:inline-flex;
+    /* justify-content:inherit; */
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: darkviolet;
+    font-size: x-large;
+    background-color: #6d6d6d;
+    /* padding: 5px; */
+    /* margin: 5px; */
+}
+
+.images img {
+    height: 600px;
+    width: 300px;
+    margin: 10px;
+}
