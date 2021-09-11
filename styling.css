@@ -3,6 +3,9 @@
     background-size: 64px;
     height: 64px;
     width: 64px;
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 /* below are all item images */
@@ -103,6 +106,18 @@
 .CBoots{
     background-image: url('images/minecraft textures/item/chainmail_boots.png');
 }
+.NHelm{
+    background-image: url('images/minecraft textures/item/netherite_helmet.png');
+}
+.NChest{
+    background-image: url('images/minecraft textures/item/netherite_chestplate.png');
+}
+.NLegs{
+    background-image: url('images/minecraft textures/item/netherite_leggings.png');
+}
+.NBoots{
+    background-image: url('images/minecraft textures/item/netherite_boots.png');
+}
 .Bread{
     background-image: url('images/minecraft textures/item/bread.png');
 }
@@ -181,6 +196,72 @@
 .CBow{
     background-image: url('images/minecraft textures/item/crossbow_standby.png');
 }
+.SBoat{
+    background-image: url('images/minecraft textures/item/spruce_boat.png');
+}
+.Pufferfish{
+    background-image: url('images/minecraft textures/item/pufferfish.png');
+}
+.IPick{
+    background-image: url('images/minecraft textures/item/iron_pickaxe.png');
+}
+.IAxe{
+    background-image: url('images/minecraft textures/item/iron_axe.png');
+}
+.IShovel{
+    background-image: url('images/minecraft textures/item/iron_shovel.png');
+}
+.ISword{
+    background-image: url('images/minecraft textures/item/iron_sword.png');
+}
+.IHoe{
+    background-image: url('images/minecraft textures/item/iron_hoe.png');
+}
+.GPick{
+    background-image: url('images/minecraft textures/item/gold_pickaxe.png');
+}
+.GAxe{
+    background-image: url('images/minecraft textures/item/gold_axe.png');
+}
+.GShovel{
+    background-image: url('images/minecraft textures/item/gold_shovel.png');
+}
+.GSword{
+    background-image: url('images/minecraft textures/item/gold_sword.png');
+}
+.GHoe{
+    background-image: url('images/minecraft textures/item/gold_hoe.png');
+}
+.DPick{
+    background-image: url('images/minecraft textures/item/diamond_pickaxe.png');
+}
+.DAxe{
+    background-image: url('images/minecraft textures/item/diamond_axe.png');
+}
+.DShovel{
+    background-image: url('images/minecraft textures/item/diamond_shovel.png');
+}
+.DSword{
+    background-image: url('images/minecraft textures/item/diamond_sword.png');
+}
+.DHoe{
+    background-image: url('images/minecraft textures/item/diamond_hoe.png');
+}
+.NPick{
+    background-image: url('images/minecraft textures/item/netherite_pickaxe.png');
+}
+.NAxe{
+    background-image: url('images/minecraft textures/item/netherite_axe.png');
+}
+.NShovel{
+    background-image: url('images/minecraft textures/item/netherite_shovel.png');
+}
+.NSword{
+    background-image: url('images/minecraft textures/item/netherite_sword.png');
+}
+.NHoe{
+    background-image: url('images/minecraft textures/item/netherite_hoe.png');
+}
 /* i want to pull gifs from online instead of using my own local machine images */
 .bookGif{ 
     background-image: url('https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/20/Invicon_Enchanted_Book.gif/revision/latest/scale-to-width-down/32?cb=20210806192958.gif');
@@ -244,7 +325,7 @@
 body {
     background-color: #FDAD77 ;
 }
-td{
+th{
     /* background-color: rebeccapurple; */
     border: 2px solid rgb(153, 153, 153);
 }
