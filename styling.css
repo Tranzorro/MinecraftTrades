@@ -298,6 +298,9 @@
 .RSalmon{
     background-image: url('images/minecraft textures/item/salmon.png');
 }
+.CSalmon{
+    background-image: url('images/minecraft textures/item/cooked_salmon.png');
+}
 .RChicken{
     background-image: url('images/minecraft textures/item/chicken.png');
 }
