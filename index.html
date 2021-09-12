@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styling.css">
     <script src="./features.js" defer></script>
-    
+
     <title>Villager Trades</title>
 </head>
+
 <body>
-    <div class="main"> <!-- main screen color-->
-        <div class="images"> <!-- group of images 1 for column-->
-            <img src="images/a_not_as_evil_witch.png"  title="Where am I? HEHEHE" alt="a not as evil witch" onclick="showMessage()">
-            <img src="images/adventuring_miner.png" title="I crave picnic baskets..." alt="adventuring miner polar bear">
+    <div class="main">
+        <!-- main screen color-->
+        <div class="images">
+            <!-- group of images 1 for column-->
+            <img src="images/a_not_as_evil_witch.png" title="Where am I? HEHEHE" alt="a not as evil witch"
+                onclick="showMessage()">
+            <img src="images/adventuring_miner.png" title="I crave picnic baskets..."
+                alt="adventuring miner polar bear">
             <img src="images/apple_farmer.png" title="I'm terrified of Doctors..." alt="apple farmer">
             <img src="images/armor_enchanter.png" title="Armor buffs!" alt="armor enchanter">
             <img src="images/armor_smith.png" title="You break it, you die." alt="armor smith">
             <img src="images/baker.png" title="Shhhh! My yeast is rising." alt="a baker">
-            <img src="images/berry_collecter.png" title="Life is like a box of berries. Square."  alt="the berry collecting white kit">
+            <img src="images/berry_collecter.png" title="Life is like a box of berries. Square."
+                alt="the berry collecting white kit">
             <img src="images/boot_shiner.png" title="I hope you washed your feet..." alt="the boot shiner">
             <img src="images/bowyer.png" title="Stop breaking my bows you donkey!" alt="the bowyer">
             <img src="images/candle_maker.png" title="Some of these are made of my ear wax hehe" alt="the candle maker">
             <img src="images/cook.png" title="Ya like meat? I got meat. Grab some and beat it!" alt="a cook">
             <img src="images/crossbow_engineer.png" title="Want some REAL accuracy?" alt="the crossbow engineer">
-            <img src="images/currency_exchange.png" title="Give me diamonds, and I'll give you something... special." alt="currency exchange">
+            <img src="images/currency_exchange.png" title="Give me diamonds, and I'll give you something... special."
+                alt="currency exchange">
             <img src="images/dock_worker.png" alt="the dock worker">
             <img src="images/event_smith.png" alt="the event smith">
             <img src="images/event_trader.png" alt="the event trader">
             <img src="images/farmer.png" alt="a farmer">
             <img src="images/fisherman.png" alt="a fisherman">
             <img src="images/fletcher.png" alt="a fletcher">
-            <div class="florists"> <!-- grouping of paired images of florists for column-->
+            <div class="florists">
+                <!-- grouping of paired images of florists for column-->
                 <img src="images/florist.png" alt="a florist">
                 <img src="images/florist2.png" alt="the other florist">
             </div>
@@ -44,7 +53,8 @@
             <img src="images/joe.png" alt="joe. just joe.">
             <img src="images/lumberjack.png" alt="he's a lumberjack and he's ok">
             <img src="images/mayor.png" alt="the stingy mayor">
-            <div class="oldfishers"> <!-- grouping of paired images of fishermen for column-->
+            <div class="oldfishers">
+                <!-- grouping of paired images of fishermen for column-->
                 <img src="images/old_bob.png" alt="old bob">
                 <img src="images/old_fisherman.png" alt="the old fisherman">
             </div>
@@ -62,12 +72,16 @@
             <img src="images/vinny_the_unkillable.png" alt="vinny the unkillable">
             <img src="images/warehouse_worker.png" alt="a warehouse worker">
         </div>
-        
-        
+
+
         <div class="trades">
             <div class="tablewrapper">
-                <Table id="Witch" >
-                    <th>A not as evil witch</th>
+                <Table id="Witch">
+                    <th class="tradername">A not as evil witch</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             4x <img class="RedMush mc" src="" alt="">
@@ -88,7 +102,7 @@
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
+                            16x <img class="SpiderEye mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
@@ -113,7 +127,11 @@
             </div>
             <div class="tablewrapper">
                 <Table id="Bear">
-                    <th>Adventuring Miner</th>
+                    <th class="tradername">Adventuring Miner</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             <img class="smallAB mc" src="" alt="">
@@ -146,7 +164,7 @@
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="Calcite mc"  src="" alt="">
+                            16x <img class="Calcite mc" src="" alt="">
                         </th>
                         <th>8x <img class="Diorite mc" src="" alt=""> 2x<img class="Quartz mc" src="" alt=""></th>
                     </tr>
@@ -183,8 +201,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="AppleFarmer" >
-                    <th>Apple Farmer</th>
+                <Table id="AppleFarmer">
+                    <th class="tradername">Apple Farmer</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             4x <img class="Apple mc" src="" alt="">
@@ -200,8 +222,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="ArmorEnch" >
-                    <th>Armor Enchanter</th>
+                <Table id="ArmorEnch">
+                    <th class="tradername">Armor Enchanter</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             blast protection 4
@@ -250,8 +276,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="ArmorSmith" >
-                    <th>Armor Smith</th>
+                <Table id="ArmorSmith">
+                    <th class="tradername">Armor Smith</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             <img class="IHelm mc" title="protection 1, unbreaking 2" src="" alt="">
@@ -278,7 +308,8 @@
                     </tr>
                     <tr>
                         <th>
-                            <img class="IBoots mc" title="depth strider1, feather falling 2, Protection 1, unbreaking 2" src="" alt="">
+                            <img class="IBoots mc" title="depth strider1, feather falling 2, Protection 1, unbreaking 2"
+                                src="" alt="">
                         </th>
                         <th>
                             10X <img class="Em mc" src="" alt="">
@@ -311,8 +342,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Baker" >
-                    <th>Baker</th>
+                <Table id="Baker">
+                    <th class="tradername">Baker</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             6x <img class="Bread mc" src="" alt="">
@@ -339,7 +374,7 @@
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="Cookies mc"  src="" alt="">
+                            16x <img class="Cookies mc" src="" alt="">
                         </th>
                         <th>
                             <img class="Em mc" src="" alt="">
@@ -356,8 +391,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="BerryCol" >
-                    <th>Berry Collecter</th>
+                <Table id="BerryCol">
+                    <th class="tradername">Berry Collecter</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             16x <img class="SweetBerries mc" src="" alt="">
@@ -382,7 +421,7 @@
                     </tr>
                     <tr>
                         <th>
-                            8x <img class="GlowBerries mc"  src="" alt="">
+                            8x <img class="GlowBerries mc" src="" alt="">
                         </th>
                         <th>
                             3x <img class="Em mc" src="" alt="">
@@ -391,8 +430,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Boot" >
-                    <th>Boot Shiner</th>
+                <Table id="Boot">
+                    <th class="tradername">Boot Shiner</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             <img class="CBoots mc" src="" alt="">
@@ -415,7 +458,7 @@
                     </tr>
                     <tr>
                         <th>
-                            <img class="DBoots mc"  src="" alt="">
+                            <img class="DBoots mc" src="" alt="">
                         </th>
                         <th>
                             40X <img class="Em mc" src="" alt="">
@@ -442,8 +485,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Bowyer" >
-                    <th>Bowyer</th>
+                <Table id="Bowyer">
+                    <th class="tradername">Bowyer</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             31x <img class="Sticks mc" src="" alt="">
@@ -466,7 +513,7 @@
                     </tr>
                     <tr>
                         <th>
-                            <img class="Bow mc"  src="" alt="">
+                            <img class="Bow mc" src="" alt="">
                         </th>
                         <th><img class="Em mc" src="" alt=""></th>
                     </tr>
@@ -491,8 +538,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Candlemaker" >
-                    <th>Candle Maker</th>
+                <Table id="Candlemaker">
+                    <th class="tradername">Candle Maker</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             <img class="Candles mc" src="" alt="">
@@ -504,8 +555,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Cook" >
-                    <th>Cook</th>
+                <Table id="Cook">
+                    <th class="tradername">Cook</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             4x <img class="CChicken mc" src="" alt="">
@@ -532,7 +587,7 @@
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="CRabbit mc"  src="" alt="">
+                            4x <img class="CRabbit mc" src="" alt="">
                         </th>
                         <th>
                             <img class="Em mc" src="" alt="">
@@ -549,8 +604,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="CbEngineer" >
-                    <th>Crossbow Engineer</th>
+                <Table id="CbEngineer">
+                    <th class="tradername">Crossbow Engineer</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             32x <img class="Sticks mc" src="" alt="">
@@ -577,7 +636,7 @@
                     </tr>
                     <tr>
                         <th>
-                            <img class="CBow mc"  src="" alt="">
+                            <img class="CBow mc" src="" alt="">
                         </th>
                         <th>
                             <img class="Em mc" src="" alt="">
@@ -610,8 +669,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="CurrencyExchange" >
-                    <th>Currency Exchange</th>
+                <Table id="CurrencyExchange">
+                    <th class="tradername">Currency Exchange</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             3x <img class="Diamond mc" src="" alt="">
@@ -636,12 +699,16 @@
                             10x <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
-                    
+
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="DockWorker" >
-                    <th>Dock Worker</th>
+                <Table id="DockWorker">
+                    <th class="tradername">Dock Worker</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             4x <img class="Pufferfish mc" src="" alt="">
@@ -661,8 +728,12 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="EventSmith" >
-                    <th>Event Smith</th>
+                <Table id="EventSmith">
+                    <th class="tradername">Event Smith</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
                             <img class="NShovel mc" title="efficiency6, mending, silk touch, unbreaking3" src="" alt="">
@@ -689,7 +760,9 @@
                     </tr>
                     <tr>
                         <th>
-                            <img class="NSword mc" title="fire aspect2, knock back 2, looting3, mending, sharpness6, sweeping egde3, unbreaking3" src="" alt="">
+                            <img class="NSword mc"
+                                title="fire aspect2, knock back 2, looting3, mending, sharpness6, sweeping egde3, unbreaking3"
+                                src="" alt="">
                         </th>
                         <th>
                             6X <img class="Et mc" src="" alt="">
@@ -713,7 +786,8 @@
                     </tr>
                     <tr>
                         <th>
-                            <img class="NAxe mc" title="efficiency6, mending, sharpness6, silk touch, unbreaking3" src="" alt="">
+                            <img class="NAxe mc" title="efficiency6, mending, sharpness6, silk touch, unbreaking3"
+                                src="" alt="">
                         </th>
                         <th>
                             9X <img class="Et mc" src="" alt="">
@@ -721,7 +795,8 @@
                     </tr>
                     <tr>
                         <th>
-                            <img class="NHelm mc" title="Aqua Affinity, mending, protection 4, repiration3, unbreaking3" src="" alt="">
+                            <img class="NHelm mc" title="Aqua Affinity, mending, protection 4, repiration3, unbreaking3"
+                                src="" alt="">
                         </th>
                         <th>
                             16X <img class="Et mc" src="" alt="">
@@ -745,7 +820,9 @@
                     </tr>
                     <tr>
                         <th>
-                            <img class="NBoots mc" title="depth strider3, feather falling 4, protection 4, soul speed 3, unbreaking" src="" alt="">
+                            <img class="NBoots mc"
+                                title="depth strider3, feather falling 4, protection 4, soul speed 3, unbreaking" src=""
+                                alt="">
                         </th>
                         <th>
                             16X <img class="Et mc" src="" alt="">
@@ -754,11 +831,628 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="EventTrader" >
-                    <th>Event Trader</th>
+                <Table id="EventTrader">
+                    <th class="tradername">Event Trader</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            <img class="SculkSensor mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Et mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="HeartofSea mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Et mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            8x<img class="SporeBlossom mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Et mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            16x <img class="InvisIFrame mc" title="invisible!" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Et mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            8x <img class="WetSponge mc" title="wet sponge" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Et mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="Debris mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Et mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="ShulkerBox mc" src="" alt="">
+                        </th>
+                        <th>
+                            2x<img class="Et mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="Elytra mc" title="mending, unbreaking3" src="" alt="">
+                        </th>
+                        <th>
+                            3x<img class="Et mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="NApple mc" title="the coveted apple fo the creator!" src="" alt="">
+                        </th>
+                        <th>
+                            64x<img class="Et mc" src="" alt="">
+                        </th>
+                    </tr>
+                </Table>
+            </div>
+            <div class="tablewrapper">
+                <Table id="Farmer">
+                    <th class="tradername">Farmer</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            21x <img class="Potato mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            21x <img class="Carrot mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            8x <img class="BeetRoot mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            4x <img class="Melon mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            6x <img class="Pumpkin mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            8x <img class="MelonSeed mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="PumpkinSeed mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="GCarrot mc" src="" alt="">
+                        </th>
+                        <th>
+                            3x<img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                </Table>
+            </div>
+            <div class="tablewrapper">
+                <Table id="Fisherman">
+                    <th class="tradername">Fisherman</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            16x <img class="RCod mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            8x <img class="RSalmon mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            2x <img class="TropicalFish mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="Pufferfish mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            8x <img class="CCod mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            4x <img class="CSalmon mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="FishingRod mc" title="Luck of the Sea 1, Lure 1, Unbreaking 1" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                </Table>
+            </div>
+            <div class="tablewrapper">
+                <Table id="Fletcher">
+                    <th class="tradername">Fletcher</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            16x <img class="Arrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            10x <img class="InvisArrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt=""> 10X <img class="Arrow mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            10x <img class="SlowArrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt=""> 10X <img class="Arrow mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            10x <img class="NightArrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt=""> 10X <img class="Arrow mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            10x <img class="PoisonArrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt=""> 10X <img class="Arrow mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            10x <img class="JumpArrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt=""> 10X <img class="Arrow mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            10x <img class="FeatherfallArrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt=""> 10X <img class="Arrow mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            10x <img class="FireResArrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt=""> 10X <img class="Arrow mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            10x <img class="InstaHealArrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt=""> 10X <img class="Arrow mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            10x <img class="HarmingArrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt=""> 10X <img class="Arrow mc" src="" alt="">
+                        </th>
+                    </tr>
+                </Table>
+            </div>
+            <div class="tablewrapper">
+                <Table id="Florists">
+                    <th class="tradername">Florists</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="Oxeye mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="LilyofValley mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="Azure mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="Corn mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="BlueOrchid mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="Allium mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="Dandelion mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="Poppy mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="WTulip mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="PTulip mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="OTulip mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="RTulip mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="WitherRose mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Qn mc" src="" alt="">
+                        </th>
+                    </tr>
+                </Table>
+            </div>
+            <div class="tablewrapper">
+                <Table id="GlassBlower">
+                    <th class="tradername">Glass Blower</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            8x <img class="Sand mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            4x <img class="amShard mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            4x <img class="Glass mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            4x <img class="TintedGlass mc" src="" alt="">
+                        </th>
+                        <th>
+                            2x<img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="Spyglass mc" src="" alt="">
+                        </th>
+                        <th>
+                            3x<img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                </Table>
+            </div>
+            <div class="tablewrapper">
+                <Table id="HeadSmith">
+                    <th class="tradername">Head Smith</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            12x <img class="Coal mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            1x <img class="CCoal mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            6x <img class="IIngot mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="GIngot mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            4x <img class="amShard mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="Diamond mc" src="" alt="">
+                            <img class="NIngot mc" src="" alt="">
+                        </th>
+                        <th>
+                            48x<img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            mending
+                        </th>
+                        <th>
+                            20x<img class="Em mc" src="" alt="">
+                            3x<img class="Qn mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            unbreaking3
+                        </th>
+                        <th>
+                            20x<img class="Em mc" src="" alt="">
+                            3x<img class="Qn mc" src="" alt="">
+                        </th>
+                    </tr>
+                </Table>
+            </div>
+            <div class="tablewrapper">
+                <Table id="HelmPolisher">
+                    <th class="tradername">Helm Polisher</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="CHelm mc" src="" alt="">
+                        </th>
+                        <th>
+                            5X <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="GHelm mc" src="" alt="">
+                        </th>
+                        <th>
+                            5X <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="IHelm mc" src="" alt="">
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="DHelm mc" src="" alt="">
+                        </th>
+                        <th>
+                            40X <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Aqua affinity
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                            3X <img class="Qn mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Respiration 3
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                            3X <img class="Qn mc" src="" alt="">
+                        </th>
+                    </tr>
+                </Table>
+            </div>
+            <div class="tablewrapper">
+                <Table id="HorseMaster">
+                    <th class="tradername">Horse Master</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            12x <img class="Leather mc" src="" alt="">
+                        </th>
+                        <th>
+                            1X <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="Saddle mc" src="" alt="">
                         </th>
                         <th>
                             3X <img class="Em mc" src="" alt="">
@@ -766,459 +1460,81 @@
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            <img class="LHArmor mc" src="" alt="">
+                        </th>
+                        <th>
+                            5X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            <img class="IHArmor mc" src="" alt="">
+                        </th>
+                        <th>
+                            10X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
+                            <img class="GHArmor mc" src="" alt="">
+                        </th>
+                        <th>
+                            15X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="DHArmor mc" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            20X <img class="Em mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Farmer" >
-                    <th>Farmer</th>
+                <Table id="IceImporter">
+                    <th class="tradername">Ice Importer</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            <img class="Ice mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            <img class="PIce mc" src="" alt="">
+                        </th>
+                        <th>
+                            8x<img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="BIce mc" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            7<img class="EmB mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Fisherman" >
-                    <th>Fisherman</th>
+                <Table id="Innkeeper">
+                    <th class="tradername">Innkeeper</th>
                     <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
-                        </th>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>Curse of Binding</th>
-                    </tr>
-                </Table>
-            </div>
-            <div class="tablewrapper">
-                <Table id="Fletcher" >
-                    <th>Fletcher</th>
-                    <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>Curse of Binding</th>
-                    </tr>
-                </Table>
-            </div>
-            <div class="tablewrapper">
-                <Table id="Florists" >
-                    <th>Florists</th>
-                    <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>Curse of Binding</th>
-                    </tr>
-                </Table>
-            </div>
-            <div class="tablewrapper">
-                <Table id="GlassBlower" >
-                    <th>Glass Blower</th>
-                    <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>Curse of Binding</th>
-                    </tr>
-                </Table>
-            </div>
-            <div class="tablewrapper">
-                <Table id="HeadSmith" >
-                    <th>Head Smith</th>
-                    <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>Curse of Binding</th>
-                    </tr>
-                </Table>
-            </div>
-            <div class="tablewrapper">
-                <Table id="HelmPolisher" >
-                    <th>Helm Polisher</th>
-                    <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>Curse of Binding</th>
-                    </tr>
-                </Table>
-            </div>
-            <div class="tablewrapper">
-                <Table id="HorseMaster" >
-                    <th>Horse Master</th>
-                    <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>Curse of Binding</th>
-                    </tr>
-                </Table>
-            </div>
-            <div class="tablewrapper">
-                <Table id="IceImporter" >
-                    <th>Ice Importer</th>
-                    <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>Curse of Binding</th>
-                    </tr>
-                </Table>
-            </div>
-            <div class="tablewrapper">
-                <Table id="Innkeeper" >
-                    <th>Innkeeper</th>
-                    <tr>
-                        <th>
-                            4x <img class="Beds mc" src="" alt="">
+                            <img class="Beds mc" src="" alt="">
                         </th>
                         <th>
                             2X <img class="Em mc" src="" alt="">
@@ -1227,701 +1543,598 @@
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Joe" >
-                    <th>Joe</th>
+                <Table id="Joe">
+                    <th class="tradername">Joe</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            14x <img class="RChicken mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="RabStew mc" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Lumberjack" >
-                    <th>Lumberjack</th>
+                <Table id="Lumberjack">
+                    <th class="tradername">Lumberjack</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            3x <img class="BirchLog mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            2X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            3x <img class="AcaciaLog mc" src="" alt="">
+                        </th>
+                        <th>
+                            2X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            3x <img class="OakLog mc" src="" alt="">
+                        </th>
+                        <th>
+                            2X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
+                            3x <img class="JungleLog mc" src="" alt="">
+                        </th>
+                        <th>
+                            2X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
+                            3x <img class="SpruceLog mc" src="" alt="">
+                        </th>
+                        <th>
+                            2X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            3x <img class="DOakLog mc" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            2X <img class="Em mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Mayor" >
-                    <th>Mayor</th>
+                <Table id="Mayor">
+                    <th class="tradername">Mayor</th>
                     <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
-                        </th>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="Paper mc" title="Deed, it's worthless." src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            64X <img class="EmB mc" src="" alt="">
+                            64X <img class="DB mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="OldFishers" >
-                    <th>Old Bob & Old Fisherman</th>
+                <Table id="OldFishers">
+                    <th class="tradername">Old Bob & Old Fisherman</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            <img class="FishingRod mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            5X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            <img class="FishingRod mc" title="Luck of the Sea 1, Lure3, unbreaking3" src="" alt="">
+                        </th>
+                        <th>
+                            10X <img class="Em mc" src="" alt="">
+                            <img class="FishingRod mc" title="Luck of the Sea 1, Lure1, unbreaking1" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            Luck of the Sea 3
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                            <img class="TropicalFish mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            Lure 3
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            20X <img class="Em mc" src="" alt="">
+                            <img class="TropicalFish mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Preacher" >
-                    <th>Preacher</th>
+                <Table id="Preacher">
+                    <th class="tradername">Preacher</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            <img class="WBottle mc" title="'Holy Water'" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            20X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="Totem mc" title="'ressurection totem'" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            64X <img class="Em mc" src="" alt="">
+                            20X <img class="Qn mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Pyromancer" >
-                    <th>Pyromancer</th>
+                <Table id="Pyromancer">
+                    <th class="tradername">Pyromancer</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            4x <img class="FireCharge mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            <img class="FlintSteel mc" title="fire aspect 5, unbreaking 10" src="" alt="">
+                        </th>
+                        <th>
+                            20x<img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            fire aspect 2
+                        </th>
+                        <th>
+                            20x<img class="Em mc" src="" alt="">
+                            <img class="BlazePowder mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            flame 1
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            20x<img class="Em mc" src="" alt="">
+                            <img class="BlazePowder mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Qbartender" >
-                    <th>Quest Bartender</th>
+                <Table id="Qbartender">
+                    <th class="tradername">Quest Bartender</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            <img class="NVPot mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            5x<img class="Em mc" src="" alt="">
+                            <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            <img class="WBPot mc" src="" alt="">
+                        </th>
+                        <th>
+                            5x<img class="Em mc" src="" alt="">
+                            <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            <img class="InvisPot mc" src="" alt="">
+                        </th>
+                        <th>
+                            5x<img class="Em mc" src="" alt="">
+                            <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
+                            <img class="SFPot mc" src="" alt="">
+                        </th>
+                        <th>
+                            5x<img class="Em mc" src="" alt="">
+                            <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
+                            <img class="FRPot mc" src="" alt="">
+                        </th>
+                        <th>
+                            5x<img class="Em mc" src="" alt="">
+                            <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="IH2Pot mc" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
+                            5x<img class="Em mc" src="" alt="">
+                            <img class="Qn mc" src="" alt="">
+                        </th>
                     </tr>
                     <tr>
                         <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="S2Pot mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
+                        <th>
+                            5x<img class="Em mc" src="" alt="">
+                            <img class="Qn mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="Tripwire mc" title="Adventurers Key" src="" alt="">
+                        </th>
+                        <th>
+                            5x<img class="Qn mc" src="" alt="">
+                        </th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Rancher" >
-                    <th>Rancher</th>
+                <Table id="Rancher">
+                    <th class="tradername">Rancher</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            8x <img class="RBeef mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            8x <img class="RChicken mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            8x <img class="RMutton mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
+                            8x <img class="RPork mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            4x <img class="RRabbit mc" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="RetFighter" >
-                    <th>Retiarius Fighter</th>
+                <Table id="RetFighter">
+                    <th class="tradername">Retiarius Fighter</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            20x <img class="Kelp mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            impaling 5
+                        </th>
+                        <th>
+                            20x<img class="Em mc" src="" alt="">
+                            3x<img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            loyalty 3
+                        </th>
+                        <th>
+                            20x<img class="Em mc" src="" alt="">
+                            3x<img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
+                            channeling
+                        </th>
+                        <th>
+                            20x<img class="Em mc" src="" alt="">
+                            3x<img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            riptide3
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            20x<img class="Em mc" src="" alt="">
+                            3x<img class="Qn mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
-                    </tr>
-                </Table>
-            </div>
-            <div class="tablewrapper">
-                <Table id="Saucier" >
-                    <th>Saucier</th>
-                    <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="SpaWorker" >
-                    <th>Spa Worker</th>
+                <Table id="Saucier">
+                    <th class="tradername">Saucier</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            <img class="BeetSoup mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            <img class="MushStew mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            <img class="RabStew mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="SusStew mc" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Swordswolf" >
-                    <th>Swordswolf</th>
+                <Table id="SpaWorker">
+                    <th class="tradername">Spa Worker</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            32x <img class="FlowerAzLeave mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            12x <img class="DriedKelpBlock mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            24x <img class="Bamboo mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            32x <img class="Lilac mc" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="Em mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="ToolEnch" >
-                    <th>Tool Enchanter</th>
+                <Table id="Swordswolf">
+                    <th class="tradername">Swordswolf</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            <img class="ISword mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            10X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            <img class="DSword mc" src="" alt="">
+                        </th>
+                        <th>
+                            40X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            bane of arthropods 5
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                            3X <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
+                            smite 5
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                            3X <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
+                            looting3
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                            3X <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            sweeping edge 3
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
-                        </th>
-                        <th>Curse of Binding</th>
-                    </tr>
-                </Table>
-            </div>
-            <div class="tablewrapper">
-                <Table id="ToolSmith" >
-                    <th>Tool Smith</th>
-                    <tr>
-                        <th>
-                            4x <img class="RedMush mc" src="" alt="">
-                        </th>
-                        <th>
-                            3X <img class="Em mc" src="" alt="">
+                            20X <img class="Em mc" src="" alt="">
+                            3X <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            knockback 2
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            20X <img class="Em mc" src="" alt="">
+                            3X <img class="Qn mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="TravelGather" >
-                    <th>Travelling Gatherer</th>
+                <Table id="ToolEnch">
+                    <th class="tradername">Tool Enchanter</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            efficiency 5
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            20X <img class="Em mc" src="" alt="">
+                            3X <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            fortune 3
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                            3X <img class="Qn mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            silk touch
                         </th>
                         <th>
-                            Curse of Vanishing</th>
-                    </tr>
-                    <tr>
-                        <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            20X <img class="Em mc" src="" alt="">
+                            3X <img class="Qn mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="Vinny" >
-                    <th>Vinny The Unkillable</th>
+                <Table id="ToolSmith">
+                    <th class="tradername">Tool Smith</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            <img class="IPick mc" src="" alt="">
                         </th>
                         <th>
                             3X <img class="Em mc" src="" alt="">
@@ -1929,86 +2142,260 @@
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            <img class="IShovel mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            <img class="IAxe mc" src="" alt="">
+                        </th>
+                        <th>
+                            3X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
+                            <img class="IHoe mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
+                            <img class="DPick mc" src="" alt="">
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="DAxe mc" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
+                            20x <img class="Em mc" src="" alt="">
+                        </th>
                     </tr>
                     <tr>
                         <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="DShovel mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="DHoe mc" src="" alt="">
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                        </th>
                     </tr>
                 </Table>
             </div>
             <div class="tablewrapper">
-                <Table id="WarehouseWorker" >
-                    <th>Warehouse Worker</th>
+                <Table id="TravelGather">
+                    <th class="tradername">Travelling Gatherer</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
                     <tr>
                         <th>
-                            4x <img class="RedMush mc" src="" alt="">
+                            <img class="RootDirt mc" src="" alt="">
                         </th>
                         <th>
-                            3X <img class="Em mc" src="" alt="">
+                            10X <img class="Dirt mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            4x <img class="BrownMush mc" src="" alt="">
+                            <img class="Moss mc" src="" alt="">
+                        </th>
+                        <th>
+                            32X <img class="Grass mc" src="" alt="">
+                            <img class="Diamond mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            5x <img class="PoisonPotato mc" src="" alt="">
+                            <img class="Azalea mc" src="" alt="">
+                        </th>
+                        <th>
+                            32X <img class="Em mc" src="" alt="">
+                            <img class="OakSap mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            16x <img class="SpiderEye mc"  src="" alt="">
+                            <img class="FlowerAz mc" src="" alt="">
+                        </th>
+                        <th>
+                            32X <img class="Em mc" src="" alt="">
+                            <img class="OakSap mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            32x <img class="RottenFlesh mc" src="" alt="">
+                            2x<img class="GlowLich mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                            2x<img class="Vines mc" src="" alt="">
                         </th>
                     </tr>
                     <tr>
                         <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="smDripLeaf mc" src="" alt="">
                         </th>
                         <th>
-                            Curse of Vanishing</th>
+                            <img class="Em mc" src="" alt="">
+                            <img class="Lilypad mc" src="" alt="">
+                        </th>
                     </tr>
                     <tr>
                         <th>
-                            1x <img class="Sugar mc" src="" alt=""> 40x <img class="Em mc" src="" alt="">
+                            <img class="SporeBlossom mc" src="" alt="">
                         </th>
-                        <th>Curse of Binding</th>
+                        <th>
+                            16x<img class="EmB mc" src="" alt="">
+                        </th>
+                    </tr>
+                </Table>
+            </div>
+            <div class="tablewrapper">
+                <Table id="Vinny">
+                    <th class="tradername">Vinny The Unkillable</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            10x<img class="HarmingArrow mc" src="" alt="">
+                        </th>
+                        <th>
+                            10X <img class="Arrow mc" src="" alt="">
+                            2X <img class="Qn mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="IAxe mc" title="efficiency 5, sharpness 5, unbreaking 3" src="" alt="">
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                            10X <img class="Qn mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="CBow mc" title="mending, piercing 4, power 4, quick charge 4, unbreaking 3" src="" alt="">
+                        </th>
+                        <th>
+                            20X <img class="Em mc" src="" alt="">
+                            15X <img class="Qn mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img class="Totem mc" src="" alt="">
+                        </th>
+                        <th>
+                            64X <img class="Em mc" src="" alt="">
+                            20X <img class="Qn mc" src="" alt="">
+                        </th>
+                    </tr>
+                </Table>
+            </div>
+            <div class="tablewrapper">
+                <Table id="WarehouseWorker">
+                    <th class="tradername">Warehouse Worker</th>
+                    <tr>
+                        <th class="tradername">Wants</th>
+                        <th class="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            16x <img class="Stone mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            16x <img class="Andesite mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            16x <img class="Diorite mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            16x <img class="Granite mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="Sand mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="RSand mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="Gravel mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="Clay mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            3x <img class="Terracotta mc" src="" alt="">
+                        </th>
+                        <th>
+                            <img class="Em mc" src="" alt="">
+                        </th>
                     </tr>
                 </Table>
             </div>
         </div>
     </div>
 </body>
+
 </html>

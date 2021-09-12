@@ -31,6 +31,8 @@
                 {"y": 0},
                 {"z": 0}
             ],
+            "Location":"insert location name here",
+            "Map view": "insert image path here",
             "Bio":"insert background story info here"
         }
     ]
