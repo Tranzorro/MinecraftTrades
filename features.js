@@ -1,7 +1,18 @@
-var images = [
-    {witch: 'images/a_not_as_evil_witch.png'},
-    {adventminer: 'images/adventuring_miner.png'},
-]
-function Nimage (name){
-    return images[name];
+topbutton = document.getElementById("totopbutton");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction(){
+    if(document.body.scrollTop > 20 || document.documentElement.scrollTop >20){
+        topbutton.style.display = "block";
+    }
+    else{
+        topbutton.style.display = "none";
+    }
+}
+
+
+function BacktoTop(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
