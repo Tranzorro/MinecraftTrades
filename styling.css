@@ -766,7 +766,7 @@ body {
     /* justify-content: left; */
     clear: both;
     /* overflow-x:hidden ; i dont like the x scroll */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .main{
     /* background-color: darkslateblue; */
