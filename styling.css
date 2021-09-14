@@ -776,16 +776,23 @@ body {
     display: inline-flex;
     margin: 0 auto;
     justify-content: space-between;
-    width: max-content;
+    width: 100%;
     overflow-y: scroll;
     /* margin-left: 20%; */
     /* height: max-content; */
     /* max-width: max-content; */
 }
+#mainwrapper{
+    max-width: max-content;
+    max-height: max-content;
+    min-height: min-content;
+    min-width: min-content;
+}
 #sidenav {
     height: 100%;
     /* width: 200px; */
     max-width: max-content;
+    min-width: min-content;
     /* position: fixed; */
     /* display: inline-flex; */
     /* flex-direction: column; */
