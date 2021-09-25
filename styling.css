@@ -1,6 +1,6 @@
 *{
     clear:both;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .mc{
@@ -194,6 +194,15 @@
 }
 .GIngot{
     background-image: url('images/minecraft textures/item/gold_ingot.png');
+}
+.RIron{
+    background-image: url('images/minecraft textures/item/raw_iron.png');
+}
+.RCopper{
+    background-image: url('images/minecraft textures/item/raw_copper.png');
+}
+.RGold{
+    background-image: url('images/minecraft textures/item/raw_gold.png');
 }
 .NIngot{
     background-image: url('images/minecraft textures/item/netherite_ingot.png');
@@ -667,6 +676,24 @@
 .SporeBlossom{
     background-image: url('images/minecraft textures/block/spore_blossom.png');
 }
+.Iblock{
+    background-image: url('images/minecraft textures/block/iron_block.png');
+}
+.Cblock{
+    background-image: url('images/minecraft textures/block/copper_block.png');
+}
+.Gblock{
+    background-image: url('images/minecraft textures/block/gold_block.png');
+}
+.RIblock{
+    background-image: url('images/minecraft textures/block/raw_iron_block.png');
+}
+.RCblock{
+    background-image: url('images/minecraft textures/block/raw_copper_block.png');
+}
+.RGblock{
+    background-image: url('images/minecraft textures/block/raw_gold_block.png');
+}
 
 .tradername{
     font-size: xx-large;
@@ -681,16 +708,21 @@ th{
     padding: 10px;
 }
 .tablewrapper{
-    height: 600px;
-    min-width: 10%;
-    max-width: fit-content;
-    width: fit-content;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    max-height: 600px;
+    min-height: min-content;
+    min-width: min-content;
+    max-width: max-content;
     /* overflow: auto; */
     overflow-y: auto;
+    margin: 10px;
 }
 
 Table{
-    width: 100%;
+    width: auto;
+    height: max-content;
 }
 
 .florists, .oldfishers{
@@ -706,6 +738,11 @@ Table{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+    max-height: max-content;
+    max-width: max-content;
+    min-height: 64px;
+    min-width: 64px;
+    height: max-content;
 }
 .Em{
     height: fit-content;
@@ -713,25 +750,29 @@ Table{
     
 }
 .trades{
+    height:max-content;
     display:inline-flex;
-    /* justify-content:inherit; */
+    justify-content:space-evenly;
     flex-direction: column;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     background-color: darkviolet;
     font-size: x-large;
     background-color: #6d6d6d;
     /* padding: 5px; */
     /* margin: 5px; */
 }
-
 .images img {
     height: 600px;
-    width: 300px;
+    /* width: 300px; */
+    /* height: 100%; */
+    width: auto;
     margin: 10px;
 }
 .portrait{
     border: coral;
     border-radius: 10%;
+    height: max-content;
+    width: auto;
 }
 #totopbutton{
     display: none;
@@ -766,20 +807,21 @@ body {
     /* justify-content: left; */
     clear: both;
     /* overflow-x:hidden ; i dont like the x scroll */
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .main{
     /* background-color: darkslateblue; */
-    padding: 10px;
-    height: max-content;
+    /* padding: 10px; */
+    height: 100%;
+    /* height: 100%; */
     /* display: flex; */
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    width: 100%;
+    display: flex;
+    /* margin: 0 auto; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
     overflow-y: scroll;
     /* margin-left: 20%; */
-    /* height: max-content; */
+    max-height: max-content;
     /* max-width: max-content; */
 }
 #mainwrapper{
@@ -802,7 +844,12 @@ body {
     background-color: black;
     overflow: auto;
     padding-top: 20px;
-    padding-bottom: 40px;
+    /* padding-bottom: 60px; */
+    /* margin-bottom: 20px; */
+}
+#sidenav:hover{
+    transition: 1s;
+    left: 0;
 }
 #sidenav a{
     padding: 6px 8px 6px 16px;
