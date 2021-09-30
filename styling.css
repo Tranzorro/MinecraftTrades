@@ -411,6 +411,9 @@
 .Saddle{
     background-image: url('images/minecraft textures/item/saddle.png'); 
 }
+.Lead{
+    background-image: url('images/minecraft textures/item/lead.png'); 
+}
 .LHArmor{
     background-image: url('images/minecraft textures/item/leather_horse_armor.png'); 
 }
@@ -693,6 +696,15 @@
 }
 .RGblock{
     background-image: url('images/minecraft textures/block/raw_gold_block.png');
+}
+.WarpedStem{
+    background-image: url('images/minecraft textures/block/warped_stem.png');
+}
+.CrimsonStem{
+    background-image: url('images/minecraft textures/block/crimson_stem.png');
+}
+.Shroomlight{
+    background-image: url('images/minecraft textures/block/shroomlight.png');
 }
 
 .tradername{
