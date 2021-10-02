@@ -5,6 +5,7 @@
 
 .mc{
     image-rendering: crisp-edges;
+    image-rendering: pixelated;
     background-size: 64px;
     height: 64px;
     width: 64px;
@@ -756,10 +757,28 @@ Table{
     min-width: 64px;
     height: max-content;
 }
-.Em{
-    height: fit-content;
-    width: fit-content;
-    
+.centered{
+    margin: 0 auto;
+}
+.BR-Text{
+    position: relative;
+    top: 35px;
+    left: 20px;
+    font-family: 'minecraftregular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    text-shadow:  2px 2px #424242;
+}
+/* .flexme{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+.gridme{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 .trades{
     height:max-content;
