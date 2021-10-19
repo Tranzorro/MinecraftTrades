@@ -742,16 +742,19 @@ th{
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: space-around; */
-    max-height: 600px;
+    /* max-height: 600px; */
+    max-height: max-content;
     min-height: min-content;
     min-width: min-content;
     max-width: max-content;
     /* overflow: auto; */
-    overflow-y: auto;
+    /* overflow-y: auto; */
     margin: 10px;
+    margin: 0 auto;
 }
 
 Table{
+    margin: 0 auto;
     width: auto;
     height: max-content;
 }
@@ -809,6 +812,7 @@ Table{
     background-color: #6d6d6d;
     /* padding: 5px; */
     /* margin: 5px; */
+    /* overflow-y: scroll; */
 }
 .images img {
     height: 600px;
@@ -861,17 +865,26 @@ body {
 .main{
     /* background-color: darkslateblue; */
     /* padding: 10px; */
-    height: 100%;
+    height: 98%;
     /* height: 100%; */
     /* display: flex; */
     display: flex;
     /* margin: 0 auto; */
     /* justify-content: space-between; */
     /* width: 100%; */
-    overflow-y: scroll;
+    /* overflow: hidden; */
     /* margin-left: 20%; */
     max-height: max-content;
     /* max-width: max-content; */
+}
+.hideScroll{
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.hideScroll::-webkit-scrollbar{
+    width: 0;
+    height: 0;
 }
 #mainwrapper{
     max-width: max-content;
@@ -880,7 +893,7 @@ body {
     min-width: min-content;
 }
 #sidenav {
-    height: 100%;
+    height: 96%;
     /* width: 200px; */
     max-width: max-content;
     min-width: min-content;
@@ -891,7 +904,8 @@ body {
     left: 0;
     top: 0;
     background-color: black;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
     padding-top: 20px;
     /* padding-bottom: 60px; */
     /* margin-bottom: 20px; */
@@ -900,7 +914,7 @@ body {
     transition: 1s;
     left: 0;
 }
-#sidenav a{
+#sidenav a,p{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
