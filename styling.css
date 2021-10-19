@@ -2,6 +2,24 @@
     clear:both;
     /* box-sizing: border-box; */
 }
+.tipBox{
+    position: relative;
+    display: inline-block;
+    border: 2px solid black;
+}
+.tipBox .tipText{
+    visibility: hidden;
+    width: 120px;
+    background-color: steelblue;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+
+}
+.tipBox:hover .tipText {
+    visibility: visible;
+    opacity: 1;
+}
 
 .mc{
     image-rendering: crisp-edges;
@@ -167,9 +185,9 @@
     height: 64px;
 }
 .Beds{
-    background-image: url('images/candlesgif.png');
+    background-image: url('images/bed.gif');
     background-size: contain;
-    width: 32px;
+    width: 64px;
     height: 64px;
 }
 .CChicken{
