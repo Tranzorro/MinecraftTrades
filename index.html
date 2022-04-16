@@ -15,7 +15,7 @@
     <button onclick="BacktoTop()" id="totopbutton" title="go back to top"> Back to Top</button>
     <!-- <div class="goleft"> -->
 
-        <div id="sidenav" class="hideScroll">
+        <nav id="sidenav" class="hideScroll">
             <a href="#CurrencyExchange">Currency Exchange</a>
             <a href="#EventSmith">Event Smith</a>
             <a href="#EventTrader">Event Trader</a>
@@ -64,10 +64,10 @@
             <p>icons supplied in part by</p>
             <p>minecraft textures</p> 
             <a href="https://discordapp.com/users/479091485283975168/">Pineapple</a>
-        </div>
+        </nav>
     <!-- </div> -->
     <div id="mainWrapper"> <!-- test container to align sidenav and main -->
-        <div class="main hideScroll">
+        <div id="main" class="main hideScroll">
             <!-- main screen color-->
             <!-- <div class="images"> -->
                 <!-- group of images 1 for column-->
@@ -124,44 +124,46 @@
                 <!-- <img src="images/warehouse_worker.png" class="portrait" alt="a warehouse worker"> -->
             <!-- </div> -->
 
-            <div class="trades">
+            <div id="trades" class="trades">
                 <div class="tablewrapper">
-                    <Table id="CurrencyExchange">
-                        <th class="tradername">Currency Exchange</th>
-                        <th><img src="images/currency_exchange.png" class="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange"></th>
-                        <tr>
-                            <th class="tradername">Wants</th>
-                            <th class="tradername">Gives</th>
-                        </tr>
-                        <tr>
-                            <th>
-                                <!-- 3x <div class="Diamond mc  centered" title="diamond" src="#" alt=""> -->
-                                <div class="Diamond mc  centered" title="diamond"> <div class="BR-Text">3</div></div>
-                                
-                            </th>
-                            <th>
-                                <div class="Qn mc  centered" title="quest nugget" > </div>
-                                <!-- <object class="Qn mc  centered" title="quest nugget"> </object> -->
-                            </th>
-                        </tr>
-                        <tr>
-                            <th>
-                                <div class="Qn mc  centered" title="quest nugget"><div class="BR-Text">10</div> </div>
-                            </th>
-                            <th>
-                                <div class="Et mc  centered" title="event token"></div>
-                            </th>
-                        </tr>
-                        <tr>
-                            <th>
-                                <div class="Et mc  centered" title="event token"></div>
-                            </th>
-                            <th>
-                                <div class="Qn mc  centered" title="quest nugget"><div class="BR-Text">10</div></div>
-                            </th>
-                        </tr>
+                    <section id="CurrencyExchange">
+                        <Table >
+                            <th class="tradername">Currency Exchange</th>
+                            <th><img src="images/currency_exchange.png" class="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange"></th>
+                            <tr>
+                                <th class="tradername">Wants</th>
+                                <th class="tradername">Gives</th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <!-- 3x <div class="Diamond mc  centered" title="diamond" src="#" alt=""> -->
+                                    <div class="Diamond mc  centered" title="diamond"> <div class="BR-Text">3</div></div>
+                                    
+                                </th>
+                                <th>
+                                    <div class="Qn mc  centered" title="quest nugget" > </div>
+                                    <!-- <object class="Qn mc  centered" title="quest nugget"> </object> -->
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <div class="Qn mc  centered" title="quest nugget"><div class="BR-Text">10</div> </div>
+                                </th>
+                                <th>
+                                    <div class="Et mc  centered" title="event token"></div>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <div class="Et mc  centered" title="event token"></div>
+                                </th>
+                                <th>
+                                    <div class="Qn mc  centered" title="quest nugget"><div class="BR-Text">10</div></div>
+                                </th>
+                            </tr>
 
-                    </Table>
+                        </Table>
+                    </section>
                 </div>
                 <div class="tablewrapper">
                     <Table id="EventSmith">
@@ -176,6 +178,7 @@
                                 <div class="Et mc  centered" title="event token" ><div class="BR-Text">6</div></div>
                             </th>
                             <th>
+                                <div class="mc centered tipBox glint" title="netherite shovel efficiency6, mending, silk touch, unbreaking3" ></div>
                                 <div class="NShovel mc  centered tipBox" title="netherite shovel efficiency6, mending, silk touch, unbreaking3" ></div>
                             </th>
                         </tr>

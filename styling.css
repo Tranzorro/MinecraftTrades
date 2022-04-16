@@ -2,6 +2,24 @@
     clear:both;
     /* box-sizing: border-box; */
 }
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    
+}
+body {
+    background-color: #FDAD77 ;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    /* flex-direction: column; */
+    /* justify-content: left; */
+    clear: both;
+    /* overflow-x:hidden ; i dont like the x scroll */
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
 .tipBox{
     position: relative;
     display: inline-block;
@@ -725,6 +743,21 @@
 .Shroomlight{
     background-image: url('images/minecraft textures/block/shroomlight.png');
 }
+@keyframes slide{
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(0, -32px, 0); /* The image width */
+    }
+}
+
+.glint{
+    /* transform: rotate(45deg); */
+    opacity: 0.5;
+    background-image: url('images/minecraft textures/misc/enchanted_item_glint.png');
+    animation: slide 1s linear infinite;
+}
 
 .tradername{
     font-size: xx-large;
@@ -813,6 +846,7 @@ Table{
     /* padding: 5px; */
     /* margin: 5px; */
     /* overflow-y: scroll; */
+    
 }
 .images img {
     height: 600px;
@@ -845,23 +879,7 @@ Table{
 #totopbutton:hover{
     background-color: #6d6d6d;
 }
-html{
-    scroll-behavior: smooth;
-    width: 100%;
-    height: 100%;
-    
-}
-body {
-    background-color: #FDAD77 ;
-    width: 100%;
-    height: 100%;
-    display: inline-flex;
-    /* flex-direction: column; */
-    /* justify-content: left; */
-    clear: both;
-    /* overflow-x:hidden ; i dont like the x scroll */
-    overflow: hidden;
-}
+
 .main{
     /* background-color: darkslateblue; */
     /* padding: 10px; */
@@ -891,6 +909,7 @@ body {
     max-height: max-content;
     min-height: min-content;
     min-width: min-content;
+    scroll-behavior: smooth;
 }
 #sidenav {
     height: 96%;
@@ -909,6 +928,7 @@ body {
     padding-top: 20px;
     /* padding-bottom: 60px; */
     /* margin-bottom: 20px; */
+    scroll-behavior: smooth;
 }
 #sidenav:hover{
     transition: 1s;
@@ -920,6 +940,7 @@ body {
     font-size: 25px;
     color: darkgray;
     display: block;
+    scroll-behavior: smooth;
 }
 #sidenav a:hover{
     color: coral;

@@ -1,9 +1,9 @@
 topbutton = document.getElementById("totopbutton");
-
+main = document.getElementById('trades');
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction(){
-    if(document.body.scrollTop > 20 || document.documentElement.scrollTop >20){
+    if(main.scrollTop > 20 || document.documentElement.scrollTop >20){
         topbutton.style.display = "block";
     }
     else{
@@ -13,7 +13,7 @@ function scrollFunction(){
 
 
 function BacktoTop(){
-    document.body.scrollTop = 0;
+    main.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
 
