@@ -11,16 +11,21 @@ import HomePage from './components/HomePage';
 
 function App() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
       <div className="App">
-        <Routes>
-          <Route element={<HomePage/>} path="/" />
+
+
+        <HomePage  nav = {<NavBar />} trade = {<TraderTable />} />
+
+        
+        {/* <Routes> */}
+          {/* <Route element={<HomePage/>} path="/" /> */}
           {/* <Route element={<DisplayOneTrader  removeFromDom={removeFromDom}/>} path="/api/traders/:id"/> */}
-          <Route element={<UpdateTrader/>} path="/api/traders/edit/:id" />
+          {/* <Route element={<UpdateTrader/>} path="/api/traders/edit/:id" /> */}
           
-        </Routes>
+        {/* </Routes> */}
       </div>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 }
 

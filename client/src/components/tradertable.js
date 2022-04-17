@@ -8,63 +8,64 @@ import axios from 'axios';
 // pass traderName through props to grab all data from database.
 // this table will be scrollable if it overflows beyond the bottom of the screen.
 const TraderTable = (props) => {
+    return (
         <div>
 
-            <table >
-                <th class="tradername">
+            {/* <table > */}
+                <th className="tradername">
                     Currency Exchange
                 </th>
                 <th>
-                    <img src="images/currency_exchange.png" class="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange">
+                    <img src="images/currency_exchange.png" className="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange">
                     </img>
                 </th>
                 <tr>
-                    <th class="tradername">Wants</th>
-                    <th class="tradername">Gives</th>
+                    <th className="tradername">Wants</th>
+                    <th className="tradername">Gives</th>
                 </tr>
                 <tr>
                     <th>
-                        <div class="Diamond mc  centered" title="diamond">
-                            <div class="BR-Text">
+                        <div className="Diamond mc  centered" title="diamond">
+                            <div className="BR-Text">
                                 3
                             </div>
                         </div>
                     </th>
                     <th>
-                        <div class="Qn mc  centered" title="quest nugget" >
+                        <div className="Qn mc  centered" title="quest nugget" >
 
                         </div>
                     </th>
                 </tr>
                 <tr>
                     <th>
-                        <div class="Qn mc  centered" title="quest nugget">
-                            <div class="BR-Text">
+                        <div className="Qn mc  centered" title="quest nugget">
+                            <div className="BR-Text">
                                 10
                             </div>
                         </div>
                     </th>
                     <th>
-                        <div class="Et mc  centered" title="event token">
+                        <div className="Et mc  centered" title="event token">
                         </div>
                     </th>
                 </tr>
                 <tr>
                     <th>
-                        <div class="Et mc  centered" title="event token">
+                        <div className="Et mc  centered" title="event token">
                         </div>
                     </th>
                     <th>
-                        <div class="Qn mc  centered" title="quest nugget">
-                            <div class="BR-Text">
+                        <div className="Qn mc  centered" title="quest nugget">
+                            <div className="BR-Text">
                                 10
                             </div>
                         </div>
                     </th>
                 </tr>
-            </table>
+            {/* </table> */}
         </div>
-        
+    );
 }
 
 export default TraderTable;

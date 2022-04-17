@@ -17,6 +17,6 @@ function BacktoTop(){
     document.documentElement.scrollTop = 0;
 }
 
-function ToolTipRPG(myClass, html){
-    return '<div class= "' + myClass + '">' + html + '</div>';
+function ToolTipRPG(myclass, html){
+    return '<div class= "' + myclass + '">' + html + '</div>';
 }
