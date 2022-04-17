@@ -9,61 +9,67 @@ import axios from 'axios';
 // this table will be scrollable if it overflows beyond the bottom of the screen.
 const TraderTable = (props) => {
     return (
-        <div>
+        <div id="trades" className="trades">
+            <div className="tablewrapper">
+            <table >
+                <tbody>
+                    <tr>
 
-            {/* <table > */}
-                <th className="tradername">
-                    Currency Exchange
-                </th>
-                <th>
-                    <img src="images/currency_exchange.png" className="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange">
-                    </img>
-                </th>
-                <tr>
-                    <th className="tradername">Wants</th>
-                    <th className="tradername">Gives</th>
-                </tr>
-                <tr>
-                    <th>
-                        <div className="Diamond mc  centered" title="diamond">
-                            <div className="BR-Text">
-                                3
-                            </div>
-                        </div>
+                    <th className="tradername">
+                        Currency Exchange
                     </th>
                     <th>
-                        <div className="Qn mc  centered" title="quest nugget" >
+                        <img src="images/currency_exchange.png" className="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange">
+                        </img>
+                    </th>
+                    <tr>
+                        <th className="tradername">Wants</th>
+                        <th className="tradername">Gives</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div className="Diamond mc  centered" title="diamond">
+                                <div className="BR-Text">
+                                    3
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div className="Qn mc  centered" title="quest nugget" >
 
-                        </div>
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        <div className="Qn mc  centered" title="quest nugget">
-                            <div className="BR-Text">
-                                10
                             </div>
-                        </div>
-                    </th>
-                    <th>
-                        <div className="Et mc  centered" title="event token">
-                        </div>
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        <div className="Et mc  centered" title="event token">
-                        </div>
-                    </th>
-                    <th>
-                        <div className="Qn mc  centered" title="quest nugget">
-                            <div className="BR-Text">
-                                10
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div className="Qn mc  centered" title="quest nugget">
+                                <div className="BR-Text">
+                                    10
+                                </div>
                             </div>
-                        </div>
-                    </th>
-                </tr>
-            {/* </table> */}
+                        </th>
+                        <th>
+                            <div className="Et mc  centered" title="event token">
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div className="Et mc  centered" title="event token">
+                            </div>
+                        </th>
+                        <th>
+                            <div className="Qn mc  centered" title="quest nugget">
+                                <div className="BR-Text">
+                                    10
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
         </div>
     );
 }
