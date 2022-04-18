@@ -539,247 +539,247 @@ body {
 
 
 .RedMush{
-  background-image: url('/red_mushroom.png');
+  background-image: url('/block_red_mushroom.png');
 }
 .RootDirt{
-  background-image: url('/rooted_dirt.png');
+  background-image: url('/block_rooted_dirt.png');
 }
 .Dirt{
-  background-image: url('/dirt.png');
+  background-image: url('/block_dirt.png');
 }
 .Moss{
-  background-image: url('/moss_block.png');
+  background-image: url('/block_moss_block.png');
 }
 .Grass{
-  background-image: url('/grass_block_side.png');
+  background-image: url('/block_grass_block_side.png');
 }
 .Azalea{
-  background-image: url('/azalea_top.png');
+  background-image: url('/block_azalea_top.png');
 }
 .Lilac{
-  background-image: url('/lilac_top.png');
+  background-image: url('/block_lilac_top.png');
 }
 .FlowerAzLeave{
-  background-image: url('/flowering_azalea_leaves.png');
+  background-image: url('/block_flowering_azalea_leaves.png');
 }
 .FlowerAz{
-  background-image: url('/flowering_azalea_side.png');
+  background-image: url('/block_flowering_azalea_side.png');
 }
 .GlowLich{
-  background-image: url('/glow_lichen.png');
+  background-image: url('/block_glow_lichen.png');
 }
 .OakSap{
-  background-image: url('/oak_sapling.png');
+  background-image: url('/block_oak_sapling.png');
 }
 .Vines{
-  background-image: url('/vine.png'); 
+  background-image: url('/block_vine.png'); 
 }
 .smDripLeaf{
-  background-image: url('/small_dripleaf_side.png'); 
+  background-image: url('/block_small_dripleaf_side.png'); 
 }
 .DriedKelpBlock{
-  background-image: url('/dried_kelp_side.png');
+  background-image: url('/block_dried_kelp_side.png');
 }
 .Lilypad{
-  background-image: url('/lily_pad.png');
+  background-image: url('/block_lily_pad.png');
 }
 .Tripwire{
-  background-image: url('/tripwire_hook.png');
+  background-image: url('/block_tripwire_hook.png');
 }
 .BirchLog{
-  background-image: url('/birch_log.png');
+  background-image: url('/block_birch_log.png');
 }
 .Stone{
-  background-image: url('/stone.png');
+  background-image: url('/block_stone.png');
 }
 .RSand{
-  background-image: url('/red_sand.png');
+  background-image: url('/block_red_sand.png');
 }
 .Gravel{
-  background-image: url('/gravel.png');
+  background-image: url('/block_gravel.png');
 }
 .Clay{
-  background-image: url('/clay.png');
+  background-image: url('/block_clay.png');
 }
 .Terracotta{
-  background-image: url('/terracotta.png');
+  background-image: url('/block_terracotta.png');
 }
 .AcaciaLog{
-  background-image: url('/acacia_log.png');
+  background-image: url('/block_acacia_log.png');
 }
 .OakLog{
-  background-image: url('/Oak_log.png');
+  background-image: url('/block_Oak_log.png');
 }
 .JungleLog{
-  background-image: url('/jungle_log.png');
+  background-image: url('/block_jungle_log.png');
 }
 .SpruceLog{
-  background-image: url('/spruce_log.png');
+  background-image: url('/block_spruce_log.png');
 }
 .DOakLog{
-  background-image: url('/dark_oak_log.png');
+  background-image: url('/block_dark_oak_log.png');
 }
 .Ice{
-  background-image: url('/ice.png');
+  background-image: url('/block_ice.png');
 }
 .PIce{
-  background-image: url('/packed_ice.png');
+  background-image: url('/block_packed_ice.png');
 }
 .BIce{
-  background-image: url('/blue_ice.png');
+  background-image: url('/block_blue_ice.png');
 }
 .Glass{
-  background-image: url('/glass.png');
+  background-image: url('/block_glass.png');
 }
 .TintedGlass{
-  background-image: url('/tinted_glass.png');
+  background-image: url('/block_tinted_glass.png');
 }
 .Oxeye{
-  background-image: url('/oxeye_daisy.png');
+  background-image: url('/block_oxeye_daisy.png');
 }
 .Melon{
-  background-image: url('/melon_side.png');
+  background-image: url('/block_melon_side.png');
 }
 .LilyofValley{
-  background-image: url('/lily_of_the_valley.png');
+  background-image: url('/block_lily_of_the_valley.png');
 }
 .Azure{
-  background-image: url('/azure_bluet.png');
+  background-image: url('/block_azure_bluet.png');
 }
 .Corn{
-  background-image: url('/cornflower.png');
+  background-image: url('/block_cornflower.png');
 }
 .BlueOrchid{
-  background-image: url('/blue_orchid.png');
+  background-image: url('/block_blue_orchid.png');
 }
 .Allium{
-  background-image: url('/allium.png');
+  background-image: url('/block_allium.png');
 }
 .Dandelion{
-  background-image: url('/dandelion.png');
+  background-image: url('/block_dandelion.png');
 }
 .Poppy{
-  background-image: url('/poppy.png');
+  background-image: url('/block_poppy.png');
 }
 .WTulip{
-  background-image: url('/white_tulip.png');
+  background-image: url('/block_white_tulip.png');
 }
 .PTulip{
-  background-image: url('/pink_tulip.png');
+  background-image: url('/block_pink_tulip.png');
 }
 .OTulip{
-  background-image: url('/orange_tulip.png');
+  background-image: url('/block_orange_tulip.png');
 }
 .RTulip{
-  background-image: url('/red_tulip.png');
+  background-image: url('/block_red_tulip.png');
 }
 .WitherRose{
-  background-image: url('/wither_rose.png');
+  background-image: url('/block_wither_rose.png');
 }
 .Pumpkin{
-  background-image: url('/pumpkin_side.png');
+  background-image: url('/block_pumpkin_side.png');
 }
 .WetSponge{
-  background-image: url('/wet_sponge.png');
+  background-image: url('/block_wet_sponge.png');
 }
 .Sand{
-  background-image: url('/sand.png');
+  background-image: url('/block_sand.png');
 }
 .Debris{
-  background-image: url('/ancient_debris_side.png');
+  background-image: url('/block_ancient_debris_side.png');
 }
 .ShulkerBox{
-  background-image: url('/shulker_box.png');
+  background-image: url('/block_shulker_box.png');
 }
 .BrownMush{
-  background-image: url('/brown_mushroom.png');
+  background-image: url('/block_brown_mushroom.png');
 }
 .smallAB{
-  background-image: url('/small_amethyst_bud.png');
+  background-image: url('/block_small_amethyst_bud.png');
 }
 .medAB{
-  background-image: url('/medium_amethyst_bud.png');
+  background-image: url('/block_medium_amethyst_bud.png');
 }
 .bigAB{
-  background-image: url('/large_amethyst_bud.png');
+  background-image: url('/block_large_amethyst_bud.png');
 }
 .amCluster{
-  background-image: url('/amethyst_cluster.png');
+  background-image: url('/block_amethyst_cluster.png');
 }
 .amBlock{
-  background-image: url('/amethyst_block.png');
+  background-image: url('/block_amethyst_block.png');
 }
 .Calcite{
-  background-image: url('/calcite.png');
+  background-image: url('/block_calcite.png');
 }
 .Tuff{
-  background-image: url('/tuff.png');
+  background-image: url('/block_tuff.png');
 }
 .cobDS{
-  background-image: url('/cobbled_deepslate.png');
+  background-image: url('/block_cobbled_deepslate.png');
 }
 .Dripstone{
-  background-image: url('/dripstone_block.png');
+  background-image: url('/block_dripstone_block.png');
 }
 .Diorite{
-  background-image: url('/diorite.png');
+  background-image: url('/block_diorite.png');
 }
 .Andesite{
-  background-image: url('/andesite.png');
+  background-image: url('/block_andesite.png');
 }
 .CobStone{
-  background-image: url('/cobblestone.png');
+  background-image: url('/block_cobblestone.png');
 }
 .BlackStone{
-  background-image: url('/blackstone.png');
+  background-image: url('/block_blackstone.png');
 }
 .Granite{
-  background-image: url('/granite.png');
+  background-image: url('/block_granite.png');
 }
 .SnowBlock{
-  background-image: url('/snow.png');
+  background-image: url('/block_snow.png');
 }
 .Et{
-  background-image: url('/sunflower_front.png');
+  background-image: url('/block_sunflower_front.png');
 }
 .EmB{
-  background-image: url('/emerald_block.png');
+  background-image: url('/block_emerald_block.png');
 }
 .DB{
-  background-image: url('/diamond_block.png');
+  background-image: url('/block_diamond_block.png');
 }
 .SculkSensor{
-  background-image: url('/sculk_sensor_side.png');
+  background-image: url('/block_sculk_sensor_side.png');
 }
 .SporeBlossom{
-  background-image: url('/spore_blossom.png');
+  background-image: url('/block_spore_blossom.png');
 }
 .Iblock{
-  background-image: url('/iron_block.png');
+  background-image: url('/block_iron_block.png');
 }
 .Cblock{
-  background-image: url('/copper_block.png');
+  background-image: url('/block_copper_block.png');
 }
 .Gblock{
-  background-image: url('/gold_block.png');
+  background-image: url('/block_gold_block.png');
 }
 .RIblock{
-  background-image: url('/raw_iron_block.png');
+  background-image: url('/block_raw_iron_block.png');
 }
 .RCblock{
-  background-image: url('/raw_copper_block.png');
+  background-image: url('/block_raw_copper_block.png');
 }
 .RGblock{
-  background-image: url('/raw_gold_block.png');
+  background-image: url('/block_raw_gold_block.png');
 }
 .WarpedStem{
-  background-image: url('/warped_stem.png');
+  background-image: url('/block_warped_stem.png');
 }
 .CrimsonStem{
-  background-image: url('/crimson_stem.png');
+  background-image: url('/block_crimson_stem.png');
 }
 .Shroomlight{
-  background-image: url('/shroomlight.png');
+  background-image: url('/block_shroomlight.png');
 }
 @keyframes slide{
   0% {
