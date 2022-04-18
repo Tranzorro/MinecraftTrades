@@ -9,19 +9,20 @@ import axios from 'axios';
 // this table will be scrollable if it overflows beyond the bottom of the screen.
 const TraderTable = (props) => {
     return (
-        <div id="trades" className="trades">
+        <div className="trades">
             <div className="tablewrapper">
             <table >
                 <tbody>
                     <tr>
 
-                    <th className="tradername">
-                        Currency Exchange
-                    </th>
-                    <th>
-                        <img src="images/currency_exchange.png" className="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange">
-                        </img>
-                    </th>
+                        <th className="tradername">
+                            Currency Exchange
+                        </th>
+                        <th>
+                            <img src="images/currency_exchange.png" className="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange">
+                            </img>
+                        </th>
+                    </tr>
                     <tr>
                         <th className="tradername">Wants</th>
                         <th className="tradername">Gives</th>
@@ -65,7 +66,6 @@ const TraderTable = (props) => {
                                 </div>
                             </div>
                         </th>
-                    </tr>
                     </tr>
                 </tbody>
             </table>

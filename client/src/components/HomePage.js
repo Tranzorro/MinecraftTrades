@@ -9,9 +9,11 @@ const HomePage = (props)=>{
     // const [nav, trade] = this.props;
     return (
 
-        <div>
-            {props.nav}
-            {props.trade}
+        <div className="mainWrapper">
+            <div className="main hideScroll">
+                {props.nav}
+                {props.trade}
+            </div>
         </div>
     )
     

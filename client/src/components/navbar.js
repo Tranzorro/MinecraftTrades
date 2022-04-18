@@ -7,7 +7,7 @@ import React, { useEffect, useState } from  'react';
 const NavBar = (props) => {
 
     return (
-        <nav id="sidenav" className="hideScroll">
+        <nav className="hideScroll sidenav">
                     <a href="#CurrencyExchange">Currency Exchange</a>
                     <a href="#EventSmith">Event Smith</a>
                     <a href="#EventTrader">Event Trader</a>
