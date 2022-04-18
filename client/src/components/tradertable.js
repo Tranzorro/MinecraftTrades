@@ -19,7 +19,7 @@ const TraderTable = (props) => {
                             Currency Exchange
                         </th>
                         <th>
-                            <img src="images/currency_exchange.png" className="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange">
+                            <img src="/currency_exchange.png" className="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange">
                             </img>
                         </th>
                     </tr>

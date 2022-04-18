@@ -89,447 +89,447 @@ body {
 }
 
 /* below are all item images */
-.Em{
-  background-image: url('/emerald.png');
+/* .Em{
+  background-image: url('images/emerald.png');
 }
 .SpiderEye{
-  background-image: url('/spider_eye.png');
+  background-image: url('images/spider_eye.png');
 }
 .PoisonPotato{
-  background-image: url('/poisonous_potato.png');
+  background-image: url('images/poisonous_potato.png');
 }
 .RottenFlesh{
-  background-image: url('/rotten_flesh.png');
+  background-image: url('images/rotten_flesh.png');
 }
 .Sugar{
-  background-image: url('/sugar.png');
+  background-image: url('images/sugar.png');
 }
 .Quartz{
-  background-image: url('/quartz.png');
+  background-image: url('images/quartz.png');
 }
 .Coal{
-  background-image: url('/coal.png');
+  background-image: url('images/coal.png');
 }
 .WBucket{
-  background-image: url('/water_bucket.png');
+  background-image: url('images/water_bucket.png');
 }
 .SBucket{
-  background-image: url('/powder_snow_bucket.png');
+  background-image: url('images/powder_snow_bucket.png');
 }
 .EBucket{
-  background-image: url('/bucket.png');
+  background-image: url('images/bucket.png');
 }
 .WBottle{
-  background-image: url('/waterbottle.png');
+  background-image: url('images/waterbottle.png');
 }
 .PDripstone{
-  background-image: url('/pointed_dripstone.png');
+  background-image: url('images/pointed_dripstone.png');
 }
 .Apple{
-  background-image: url('/apple.png');
+  background-image: url('images/apple.png');
 }
 .GApple{
-  background-image: url('/golden_apple.png');
+  background-image: url('images/golden_apple.png');
 }
 .Diamond{
-  background-image: url('/diamond.png');
+  background-image: url('images/diamond.png');
 }
 .Qn{
-  background-image: url('/gold_nugget.png');
+  background-image: url('images/gold_nugget.png');
 }
 
 .IHelm{
-  background-image: url('/iron_helmet.png');
+  background-image: url('images/iron_helmet.png');
 }
 .IChest{
-  background-image: url('/iron_chestplate.png');
+  background-image: url('images/iron_chestplate.png');
 }
 .ILegs{
-  background-image: url('/iron_leggings.png');
+  background-image: url('images/iron_leggings.png');
 }
 .IBoots{
-  background-image: url('/iron_boots.png');
+  background-image: url('images/iron_boots.png');
 }
 .DHelm{
-  background-image: url('/diamond_helmet.png');
+  background-image: url('images/diamond_helmet.png');
 }
 .DChest{
-  background-image: url('/diamond_chestplate.png');
+  background-image: url('images/diamond_chestplate.png');
 }
 .DLegs{
-  background-image: url('/diamond_leggings.png');
+  background-image: url('images/diamond_leggings.png');
 }
 .DBoots{
-  background-image: url('/diamond_boots.png');
+  background-image: url('images/diamond_boots.png');
 }
 .GHelm{
-  background-image: url('/golden_helmet.png');
+  background-image: url('images/golden_helmet.png');
 }
 .GChest{
-  background-image: url('/golden_chestplate.png');
+  background-image: url('images/golden_chestplate.png');
 }
 .GLegs{
-  background-image: url('/golden_leggings.png');
+  background-image: url('images/golden_leggings.png');
 }
 .GBoots{
-  background-image: url('/golden_boots.png');
+  background-image: url('images/golden_boots.png');
 }
 .CHelm{
-  background-image: url('/chainmail_helmet.png');
+  background-image: url('images/chainmail_helmet.png');
 }
 .CChest{
-  background-image: url('/chainmail_chestplate.png');
+  background-image: url('images/chainmail_chestplate.png');
 }
 .CLegs{
-  background-image: url('/chainmail_leggings.png');
+  background-image: url('images/chainmail_leggings.png');
 }
 .CBoots{
-  background-image: url('/chainmail_boots.png');
+  background-image: url('images/chainmail_boots.png');
 }
 .NHelm{
-  background-image: url('/netherite_helmet.png');
+  background-image: url('images/netherite_helmet.png');
 }
 .NChest{
-  background-image: url('/netherite_chestplate.png');
+  background-image: url('images/netherite_chestplate.png');
 }
 .NLegs{
-  background-image: url('/netherite_leggings.png');
+  background-image: url('images/netherite_leggings.png');
 }
 .NBoots{
-  background-image: url('/netherite_boots.png');
+  background-image: url('images/netherite_boots.png');
 }
 .Bread{
-  background-image: url('/bread.png');
+  background-image: url('images/bread.png');
 }
 .BPotato{
-  background-image: url('/baked_potato.png');
+  background-image: url('images/baked_potato.png');
 }
 .PumpkinPie{
-  background-image: url('/pumpkin_pie.png');
+  background-image: url('images/pumpkin_pie.png');
 }
 .Cookies{
-  background-image: url('/cookie.png');
+  background-image: url('images/cookie.png');
 }
 .Cake{
-  background-image: url('/cake.png');
+  background-image: url('images/cake.png');
 }
 .SweetBerries{
-  background-image: url('/sweet_berries.png');
+  background-image: url('images/sweet_berries.png');
 }
 .HBottle{
-  background-image: url('/honey_bottle.png');
+  background-image: url('images/honey_bottle.png');
 }
 .HCombs{
-  background-image: url('/honeycomb.png');
+  background-image: url('images/honeycomb.png');
 }
 .GlowBerries{
-  background-image: url('/glow_berries.png');
+  background-image: url('images/glow_berries.png');
 }
 .Sticks{
-  background-image: url('/stick.png');
+  background-image: url('images/stick.png');
 }
 .String{
-  background-image: url('/string.png');
+  background-image: url('images/string.png');
 }
 .Bow{
-  background-image: url('/bow.png');
+  background-image: url('images/bow.png');
 }
 .Candles{
-  background-image: url('/candlesgif.png');
+  background-image: url('images/candlesgif.png');
   background-size: contain;
   width: 32px;
   height: 64px;
 }
 .Beds{
-  background-image: url('/bed.gif');
+  background-image: url('images/bed.gif');
   background-size: contain;
   width: 64px;
   height: 64px;
 }
 .CChicken{
-  background-image: url('/cooked_chicken.png');
+  background-image: url('images/cooked_chicken.png');
 }
 .CMutton{
-  background-image: url('/cooked_mutton.png');
+  background-image: url('images/cooked_mutton.png');
 }
 .CPork{
-  background-image: url('/cooked_porkchop.png');
+  background-image: url('images/cooked_porkchop.png');
 }
 .CRabbit{
-  background-image: url('/cooked_rabbit.png');
+  background-image: url('images/cooked_rabbit.png');
 }
 .Steak{
-  background-image: url('/cooked_beef.png');
+  background-image: url('images/cooked_beef.png');
 }
 .IIngot{
-  background-image: url('/iron_ingot.png');
+  background-image: url('images/iron_ingot.png');
 }
 .CIngot{
-  background-image: url('/copper_ingot.png');
+  background-image: url('images/copper_ingot.png');
 }
 .GIngot{
-  background-image: url('/gold_ingot.png');
+  background-image: url('images/gold_ingot.png');
 }
 .RIron{
-  background-image: url('/raw_iron.png');
+  background-image: url('images/raw_iron.png');
 }
 .RCopper{
-  background-image: url('/raw_copper.png');
+  background-image: url('images/raw_copper.png');
 }
 .RGold{
-  background-image: url('/raw_gold.png');
+  background-image: url('images/raw_gold.png');
 }
 .NIngot{
-  background-image: url('/netherite_ingot.png');
+  background-image: url('images/netherite_ingot.png');
 }
 .CBow{
-  background-image: url('/crossbow_standby.png');
+  background-image: url('images/crossbow_standby.png');
 }
 .SBoat{
-  background-image: url('/spruce_boat.png');
+  background-image: url('images/spruce_boat.png');
 }
 .Pufferfish{
-  background-image: url('/pufferfish.png');
+  background-image: url('images/pufferfish.png');
 }
 .IPick{
-  background-image: url('/iron_pickaxe.png');
+  background-image: url('images/iron_pickaxe.png');
 }
 .IAxe{
-  background-image: url('/iron_axe.png');
+  background-image: url('images/iron_axe.png');
 }
 .IShovel{
-  background-image: url('/iron_shovel.png');
+  background-image: url('images/iron_shovel.png');
 }
 .ISword{
-  background-image: url('/iron_sword.png');
+  background-image: url('images/iron_sword.png');
 }
 .IHoe{
-  background-image: url('/iron_hoe.png');
+  background-image: url('images/iron_hoe.png');
 }
 .GPick{
-  background-image: url('/gold_pickaxe.png');
+  background-image: url('images/gold_pickaxe.png');
 }
 .GAxe{
-  background-image: url('/gold_axe.png');
+  background-image: url('images/gold_axe.png');
 }
 .GShovel{
-  background-image: url('/gold_shovel.png');
+  background-image: url('images/gold_shovel.png');
 }
 .GSword{
-  background-image: url('/gold_sword.png');
+  background-image: url('images/gold_sword.png');
 }
 .GHoe{
-  background-image: url('/gold_hoe.png');
+  background-image: url('images/gold_hoe.png');
 }
 .DPick{
-  background-image: url('/diamond_pickaxe.png');
+  background-image: url('images/diamond_pickaxe.png');
 }
 .DAxe{
-  background-image: url('/diamond_axe.png');
+  background-image: url('images/diamond_axe.png');
 }
 .DShovel{
-  background-image: url('/diamond_shovel.png');
+  background-image: url('images/diamond_shovel.png');
 }
 .DSword{
-  background-image: url('/diamond_sword.png');
+  background-image: url('images/diamond_sword.png');
 }
 .DHoe{
-  background-image: url('/diamond_hoe.png');
+  background-image: url('images/diamond_hoe.png');
 }
 .NPick{
-  background-image: url('/netherite_pickaxe.png');
+  background-image: url('images/netherite_pickaxe.png');
 }
 .NAxe{
-  background-image: url('/netherite_axe.png');
+  background-image: url('images/netherite_axe.png');
 }
 .NShovel{
-  background-image: url('/netherite_shovel.png');
+  background-image: url('images/netherite_shovel.png');
 }
 .NSword{
-  background-image: url('/netherite_sword.png');
+  background-image: url('images/netherite_sword.png');
 }
 .NHoe{
-  background-image: url('/netherite_hoe.png');
+  background-image: url('images/netherite_hoe.png');
 }
 .HeartofSea{
-  background-image: url('/heart_of_the_sea.png');
+  background-image: url('images/heart_of_the_sea.png');
 }
 .InvisIFrame{
-  background-image: url('/item_frame.png');
+  background-image: url('images/item_frame.png');
 }
 .Elytra{
-  background-image: url('/elytra.png');
+  background-image: url('images/elytra.png');
 }
 .Potato{
-  background-image: url('/potato.png');
+  background-image: url('images/potato.png');
 }
 .Carrot{
-  background-image: url('/carrot.png');
+  background-image: url('images/carrot.png');
 }
 .BeetRoot{
-  background-image: url('/beetroot.png');
+  background-image: url('images/beetroot.png');
 }
 .MelonSeed{
-  background-image: url('/melon_seeds.png');
+  background-image: url('images/melon_seeds.png');
 }
 .PumpkinSeed{
-  background-image: url('/pumpkin_seeds.png');
+  background-image: url('images/pumpkin_seeds.png');
 }
 .GCarrot{
-  background-image: url('/golden_carrot.png');
+  background-image: url('images/golden_carrot.png');
 }
 .RCod{
-  background-image: url('/cod.png');
+  background-image: url('images/cod.png');
 }
 .CCod{
-  background-image: url('/cooked_cod.png');
+  background-image: url('images/cooked_cod.png');
 }
 .RSalmon{
-  background-image: url('/salmon.png');
+  background-image: url('images/salmon.png');
 }
 .CSalmon{
-  background-image: url('/cooked_salmon.png');
+  background-image: url('images/cooked_salmon.png');
 }
 .RChicken{
-  background-image: url('/chicken.png');
+  background-image: url('images/chicken.png');
 }
 .RChicken{
-  background-image: url('/chicken.png');
+  background-image: url('images/chicken.png');
 }
 .RBeef{
-  background-image: url('/beef.png');
+  background-image: url('images/beef.png');
 }
 .RMutton{
-  background-image: url('/mutton.png');
+  background-image: url('images/mutton.png');
 }
 .RPork{
-  background-image: url('/porkchop.png');
+  background-image: url('images/porkchop.png');
 }
 .RRabbit{
-  background-image: url('/rabbit.png');
+  background-image: url('images/rabbit.png');
 }
 .RabStew{
-  background-image: url('/rabbit_stew.png');
+  background-image: url('images/rabbit_stew.png');
 }
 .Kelp{
-  background-image: url('/kelp.png');
+  background-image: url('images/kelp.png');
 }
 .BeetSoup{
-  background-image: url('/beetroot_soup.png');
+  background-image: url('images/beetroot_soup.png');
 }
 .MushStew{
-  background-image: url('/mushroom_stew.png');
+  background-image: url('images/mushroom_stew.png');
 }
 .SusStew{
-  background-image: url('/suspicious_stew.png');
+  background-image: url('images/suspicious_stew.png');
 }
 .TropicalFish{
-  background-image: url('/tropical_fish.png');
+  background-image: url('images/tropical_fish.png');
 }
 .NApple{
-  background-image: url('/golden_apple.png'); 
+  background-image: url('images/golden_apple.png'); 
 }
 .FishingRod{
-  background-image: url('/fishing_rod.png'); 
+  background-image: url('images/fishing_rod.png'); 
 }
 .Paper{
-  background-image: url('/paper.png'); 
+  background-image: url('images/paper.png'); 
 }
 .Totem{
-  background-image: url('/totem_of_undying.png'); 
+  background-image: url('images/totem_of_undying.png'); 
 }
 .FireCharge{
-  background-image: url('/fire_charge.png'); 
+  background-image: url('images/fire_charge.png'); 
 }
 .FlintSteel{
-  background-image: url('/flint_and_steel.png'); 
+  background-image: url('images/flint_and_steel.png'); 
 }
 .BlazePowder{
-  background-image: url('/blaze_powder.png'); 
+  background-image: url('images/blaze_powder.png'); 
 }
 .amShard{
-  background-image: url('/amethyst_shard.png'); 
+  background-image: url('images/amethyst_shard.png'); 
 }
 .Spyglass{
-  background-image: url('/spyglass.png'); 
+  background-image: url('images/spyglass.png'); 
 }
 .Bamboo{
-  background-image: url('/bamboo.png'); 
+  background-image: url('images/bamboo.png'); 
 }
 .CCoal{
-  background-image: url('/charcoal.png'); 
+  background-image: url('images/charcoal.png'); 
 }
 .NVPot{
-  background-image: url('/potion.png'); 
+  background-image: url('images/potion.png'); 
 }
 .WBPot{
-  background-image: url('/potion.png'); 
+  background-image: url('images/potion.png'); 
 }
 .InvisPot{
-  background-image: url('/potion.png'); 
+  background-image: url('images/potion.png'); 
 }
 .SFPot{
-  background-image: url('/potion.png'); 
+  background-image: url('images/potion.png'); 
 }
 .FRPot{
-  background-image: url('/potion.png'); 
+  background-image: url('images/potion.png'); 
 }
 .IH2Pot{
-  background-image: url('/potion.png'); 
+  background-image: url('images/potion.png'); 
 }
 .S2Pot{
-  background-image: url('/potion.png'); 
+  background-image: url('images/potion.png'); 
 }
 .Leather{
-  background-image: url('/leather.png'); 
+  background-image: url('images/leather.png'); 
 }
 .Saddle{
-  background-image: url('/saddle.png'); 
+  background-image: url('images/saddle.png'); 
 }
 .Lead{
-  background-image: url('/lead.png'); 
+  background-image: url('images/lead.png'); 
 }
 .LHArmor{
-  background-image: url('/leather_horse_armor.png'); 
+  background-image: url('images/leather_horse_armor.png'); 
 }
 .IHArmor{
-  background-image: url('/iron_horse_armor.png'); 
+  background-image: url('images/iron_horse_armor.png'); 
 }
 .GHArmor{
-  background-image: url('/golden_horse_armor.png'); 
+  background-image: url('images/golden_horse_armor.png'); 
 }
 .DHArmor{
-  background-image: url('/diamond_horse_armor.png'); 
+  background-image: url('images/diamond_horse_armor.png'); 
 }
 .Arrow{
-  background-image: url('/arrow.png'); 
+  background-image: url('images/arrow.png'); 
 }
 .InvisArrow{
-  background-image: url('/tipped_arrow_head.png'); 
+  background-image: url('images/tipped_arrow_head.png'); 
 }
 .SlowArrow{
-  background-image: url('/tipped_arrow_head.png'); 
+  background-image: url('images/tipped_arrow_head.png'); 
 }
 .NightArrow{
-  background-image: url('/tipped_arrow_head.png'); 
+  background-image: url('images/tipped_arrow_head.png'); 
 }
 .PoisonArrow{
-  background-image: url('/tipped_arrow_head.png'); 
+  background-image: url('images/tipped_arrow_head.png'); 
 }
 .JumpArrow{
-  background-image: url('/tipped_arrow_head.png'); 
+  background-image: url('images/tipped_arrow_head.png'); 
 }
 .FeatherfallArrow{
-  background-image: url('/tipped_arrow_head.png');
+  background-image: url('images/tipped_arrow_head.png');
 }
 .FireResArrow{
-  background-image: url('/tipped_arrow_head.png'); 
+  background-image: url('images/tipped_arrow_head.png'); 
 }
 .InstaHealArrow{
-  background-image: url('/tipped_arrow_head.png');
+  background-image: url('images/tipped_arrow_head.png');
 }
 .HarmingArrow{
-  background-image: url('/tipped_arrow_head.png'); 
+  background-image: url('images/tipped_arrow_head.png'); 
 }
 
 
@@ -539,248 +539,248 @@ body {
 
 
 .RedMush{
-  background-image: url('/block_red_mushroom.png');
+  background-image: url('images/block_red_mushroom.png');
 }
 .RootDirt{
-  background-image: url('/block_rooted_dirt.png');
+  background-image: url('images/block_rooted_dirt.png');
 }
 .Dirt{
-  background-image: url('/block_dirt.png');
+  background-image: url('images/block_dirt.png');
 }
 .Moss{
-  background-image: url('/block_moss_block.png');
+  background-image: url('images/block_moss_block.png');
 }
 .Grass{
-  background-image: url('/block_grass_block_side.png');
+  background-image: url('images/block_grass_block_side.png');
 }
 .Azalea{
-  background-image: url('/block_azalea_top.png');
+  background-image: url('images/block_azalea_top.png');
 }
 .Lilac{
-  background-image: url('/block_lilac_top.png');
+  background-image: url('images/block_lilac_top.png');
 }
 .FlowerAzLeave{
-  background-image: url('/block_flowering_azalea_leaves.png');
+  background-image: url('images/block_flowering_azalea_leaves.png');
 }
 .FlowerAz{
-  background-image: url('/block_flowering_azalea_side.png');
+  background-image: url('images/block_flowering_azalea_side.png');
 }
 .GlowLich{
-  background-image: url('/block_glow_lichen.png');
+  background-image: url('images/block_glow_lichen.png');
 }
 .OakSap{
-  background-image: url('/block_oak_sapling.png');
+  background-image: url('images/block_oak_sapling.png');
 }
 .Vines{
-  background-image: url('/block_vine.png'); 
+  background-image: url('images/block_vine.png'); 
 }
 .smDripLeaf{
-  background-image: url('/block_small_dripleaf_side.png'); 
+  background-image: url('images/block_small_dripleaf_side.png'); 
 }
 .DriedKelpBlock{
-  background-image: url('/block_dried_kelp_side.png');
+  background-image: url('images/block_dried_kelp_side.png');
 }
 .Lilypad{
-  background-image: url('/block_lily_pad.png');
+  background-image: url('images/block_lily_pad.png');
 }
 .Tripwire{
-  background-image: url('/block_tripwire_hook.png');
+  background-image: url('images/block_tripwire_hook.png');
 }
 .BirchLog{
-  background-image: url('/block_birch_log.png');
+  background-image: url('images/block_birch_log.png');
 }
 .Stone{
-  background-image: url('/block_stone.png');
+  background-image: url('images/block_stone.png');
 }
 .RSand{
-  background-image: url('/block_red_sand.png');
+  background-image: url('images/block_red_sand.png');
 }
 .Gravel{
-  background-image: url('/block_gravel.png');
+  background-image: url('images/block_gravel.png');
 }
 .Clay{
-  background-image: url('/block_clay.png');
+  background-image: url('images/block_clay.png');
 }
 .Terracotta{
-  background-image: url('/block_terracotta.png');
+  background-image: url('images/block_terracotta.png');
 }
 .AcaciaLog{
-  background-image: url('/block_acacia_log.png');
+  background-image: url('images/block_acacia_log.png');
 }
 .OakLog{
-  background-image: url('/block_Oak_log.png');
+  background-image: url('images/block_Oak_log.png');
 }
 .JungleLog{
-  background-image: url('/block_jungle_log.png');
+  background-image: url('images/block_jungle_log.png');
 }
 .SpruceLog{
-  background-image: url('/block_spruce_log.png');
+  background-image: url('images/block_spruce_log.png');
 }
 .DOakLog{
-  background-image: url('/block_dark_oak_log.png');
+  background-image: url('images/block_dark_oak_log.png');
 }
 .Ice{
-  background-image: url('/block_ice.png');
+  background-image: url('images/block_ice.png');
 }
 .PIce{
-  background-image: url('/block_packed_ice.png');
+  background-image: url('images/block_packed_ice.png');
 }
 .BIce{
-  background-image: url('/block_blue_ice.png');
+  background-image: url('images/block_blue_ice.png');
 }
 .Glass{
-  background-image: url('/block_glass.png');
+  background-image: url('images/block_glass.png');
 }
 .TintedGlass{
-  background-image: url('/block_tinted_glass.png');
+  background-image: url('images/block_tinted_glass.png');
 }
 .Oxeye{
-  background-image: url('/block_oxeye_daisy.png');
+  background-image: url('images/block_oxeye_daisy.png');
 }
 .Melon{
-  background-image: url('/block_melon_side.png');
+  background-image: url('images/block_melon_side.png');
 }
 .LilyofValley{
-  background-image: url('/block_lily_of_the_valley.png');
+  background-image: url('images/block_lily_of_the_valley.png');
 }
 .Azure{
-  background-image: url('/block_azure_bluet.png');
+  background-image: url('images/block_azure_bluet.png');
 }
 .Corn{
-  background-image: url('/block_cornflower.png');
+  background-image: url('images/block_cornflower.png');
 }
 .BlueOrchid{
-  background-image: url('/block_blue_orchid.png');
+  background-image: url('images/block_blue_orchid.png');
 }
 .Allium{
-  background-image: url('/block_allium.png');
+  background-image: url('images/block_allium.png');
 }
 .Dandelion{
-  background-image: url('/block_dandelion.png');
+  background-image: url('images/block_dandelion.png');
 }
 .Poppy{
-  background-image: url('/block_poppy.png');
+  background-image: url('images/block_poppy.png');
 }
 .WTulip{
-  background-image: url('/block_white_tulip.png');
+  background-image: url('images/block_white_tulip.png');
 }
 .PTulip{
-  background-image: url('/block_pink_tulip.png');
+  background-image: url('images/block_pink_tulip.png');
 }
 .OTulip{
-  background-image: url('/block_orange_tulip.png');
+  background-image: url('images/block_orange_tulip.png');
 }
 .RTulip{
-  background-image: url('/block_red_tulip.png');
+  background-image: url('images/block_red_tulip.png');
 }
 .WitherRose{
-  background-image: url('/block_wither_rose.png');
+  background-image: url('images/block_wither_rose.png');
 }
 .Pumpkin{
-  background-image: url('/block_pumpkin_side.png');
+  background-image: url('images/block_pumpkin_side.png');
 }
 .WetSponge{
-  background-image: url('/block_wet_sponge.png');
+  background-image: url('images/block_wet_sponge.png');
 }
 .Sand{
-  background-image: url('/block_sand.png');
+  background-image: url('images/block_sand.png');
 }
 .Debris{
-  background-image: url('/block_ancient_debris_side.png');
+  background-image: url('images/block_ancient_debris_side.png');
 }
 .ShulkerBox{
-  background-image: url('/block_shulker_box.png');
+  background-image: url('images/block_shulker_box.png');
 }
 .BrownMush{
-  background-image: url('/block_brown_mushroom.png');
+  background-image: url('images/block_brown_mushroom.png');
 }
 .smallAB{
-  background-image: url('/block_small_amethyst_bud.png');
+  background-image: url('images/block_small_amethyst_bud.png');
 }
 .medAB{
-  background-image: url('/block_medium_amethyst_bud.png');
+  background-image: url('images/block_medium_amethyst_bud.png');
 }
 .bigAB{
-  background-image: url('/block_large_amethyst_bud.png');
+  background-image: url('images/block_large_amethyst_bud.png');
 }
 .amCluster{
-  background-image: url('/block_amethyst_cluster.png');
+  background-image: url('images/block_amethyst_cluster.png');
 }
 .amBlock{
-  background-image: url('/block_amethyst_block.png');
+  background-image: url('images/block_amethyst_block.png');
 }
 .Calcite{
-  background-image: url('/block_calcite.png');
+  background-image: url('images/block_calcite.png');
 }
 .Tuff{
-  background-image: url('/block_tuff.png');
+  background-image: url('images/block_tuff.png');
 }
 .cobDS{
-  background-image: url('/block_cobbled_deepslate.png');
+  background-image: url('images/block_cobbled_deepslate.png');
 }
 .Dripstone{
-  background-image: url('/block_dripstone_block.png');
+  background-image: url('images/block_dripstone_block.png');
 }
 .Diorite{
-  background-image: url('/block_diorite.png');
+  background-image: url('images/block_diorite.png');
 }
 .Andesite{
-  background-image: url('/block_andesite.png');
+  background-image: url('images/block_andesite.png');
 }
 .CobStone{
-  background-image: url('/block_cobblestone.png');
+  background-image: url('images/block_cobblestone.png');
 }
 .BlackStone{
-  background-image: url('/block_blackstone.png');
+  background-image: url('images/block_blackstone.png');
 }
 .Granite{
-  background-image: url('/block_granite.png');
+  background-image: url('images/block_granite.png');
 }
 .SnowBlock{
-  background-image: url('/block_snow.png');
+  background-image: url('images/block_snow.png');
 }
 .Et{
-  background-image: url('/block_sunflower_front.png');
+  background-image: url('images/block_sunflower_front.png');
 }
 .EmB{
-  background-image: url('/block_emerald_block.png');
+  background-image: url('images/block_emerald_block.png');
 }
 .DB{
-  background-image: url('/block_diamond_block.png');
+  background-image: url('images/block_diamond_block.png');
 }
 .SculkSensor{
-  background-image: url('/block_sculk_sensor_side.png');
+  background-image: url('images/block_sculk_sensor_side.png');
 }
 .SporeBlossom{
-  background-image: url('/block_spore_blossom.png');
+  background-image: url('images/block_spore_blossom.png');
 }
 .Iblock{
-  background-image: url('/block_iron_block.png');
+  background-image: url('images/block_iron_block.png');
 }
 .Cblock{
-  background-image: url('/block_copper_block.png');
+  background-image: url('images/block_copper_block.png');
 }
 .Gblock{
-  background-image: url('/block_gold_block.png');
+  background-image: url('images/block_gold_block.png');
 }
 .RIblock{
-  background-image: url('/block_raw_iron_block.png');
+  background-image: url('images/block_raw_iron_block.png');
 }
 .RCblock{
-  background-image: url('/block_raw_copper_block.png');
+  background-image: url('images/block_raw_copper_block.png');
 }
 .RGblock{
-  background-image: url('/block_raw_gold_block.png');
+  background-image: url('images/block_raw_gold_block.png');
 }
 .WarpedStem{
-  background-image: url('/block_warped_stem.png');
+  background-image: url('images/block_warped_stem.png');
 }
 .CrimsonStem{
-  background-image: url('/block_crimson_stem.png');
+  background-image: url('images/block_crimson_stem.png');
 }
 .Shroomlight{
-  background-image: url('/block_shroomlight.png');
-}
+  background-image: url('images/block_shroomlight.png');
+} */
 @keyframes slide{
   0% {
       transform: translate3d(0, 0, 0);
@@ -792,7 +792,7 @@ body {
 
 .glint{
   opacity: 0.5;
-  background-image: url('/enchanted_item_glint.png');
+  /* background-image: url('images/enchanted_item_glint.png'); */
   animation: slide 1s linear infinite;
 }
 
