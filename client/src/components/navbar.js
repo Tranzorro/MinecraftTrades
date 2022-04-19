@@ -6,8 +6,10 @@ import React, { useEffect, useState } from  'react';
 
 const NavBar = (props) => {
 
+// replace a tags with a for loop to insert a new a tag instead, for each trader found in db
+// this navbar should be scrollable
     return (
-        <nav className="hideScroll sidenav">
+        <nav className="hideScroll sidenav"> 
                     <a href="#CurrencyExchange">Currency Exchange</a>
                     <a href="#EventSmith">Event Smith</a>
                     <a href="#EventTrader">Event Trader</a>
