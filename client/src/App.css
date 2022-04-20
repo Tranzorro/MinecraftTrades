@@ -949,7 +949,8 @@ table{
   scroll-behavior: smooth;
 }
 .sidenav {
-  height: 96%;
+  /* use vh or vw with components, use % for basic html. */
+  height: 96vh;
   /* width: 200px; */
   max-width: max-content;
   min-width: min-content;
