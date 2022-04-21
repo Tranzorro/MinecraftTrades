@@ -13,33 +13,39 @@ const TraderTable = (props) => {
             <npcItem key = {info.toString()} value={info.id}/>
             return(
                 <tr key= {info.id}>
-                        {info.trades.map((wants) => {
-                            <npcWant key = {wants.toString()} value = {wants.id}/>
-                            return (
-                                info.trades.wants.map((item) => {
-                                    <itemList key = {item.toString()} value = {item.id} />
-                                    return(
-                                        <td key = {item.id}>
-                                            <div src = {item.itemImageUrl}>{item.itemName}</div>
-                                            <div className= "BR-Text">{item.itemCount}</div>
-                                        </td>
-                                    );
-                                })
+                        {info.trades.map((trades) => {
+                            <npcWant key = {trades.toString()} value = {trades.id}/>
+                            return(
+                                <td key ={trades.id}>
+                                    {trades.wants.map((item) => {
+                                        <itemList key = {item.toString()} value = {item.id} />
+                                        return(
+                                            <div key = {item.id}>
+                                                <div src = {item.itemImageUrl}>{item.itemName}</div>
+                                                <div className= "BR-Text">{item.itemCount}</div>
+                                            </div>
+                                        )
+                                    })
+                                    }
+                                </td>
                             )
                         })}
                     
-                        {info.trades.map(gives => {
-                            <npcGive key = {gives.toString()} value = {gives}/>
-                            return (
-                                gives.map(item => {
-                                    <itemList key = {item.toString()} value = {item} />
-                                    return(
-                                        <td key = {item}>
-                                            <div src = {item.itemImageUrl}>{item.itemName}</div>
-                                            <div className= "BR-Text">{item.itemCount}</div>
-                                        </td>
-                                    );
-                                })
+                    {info.trades.map((trades) => {
+                            <npcWant key = {trades.toString()} value = {trades.id}/>
+                            return(
+                                <td key ={trades.id}>
+                                    {trades.gives.map((item) => {
+                                        <itemList key = {item.toString()} value = {item.id} />
+                                        return(
+                                            <div key = {item.id}>
+                                                <div src = {item.itemImageUrl}>{item.itemName}</div>
+                                                <div className= "BR-Text">{item.itemCount}</div>
+                                            </div>
+                                        )
+                                    })
+                                    }
+                                </td>
                             )
                         })}
                 </tr>
