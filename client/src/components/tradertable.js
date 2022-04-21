@@ -15,32 +15,36 @@ const TraderTable = (props) => {
             return(
                 // add a for loop here to get 1 of each want and give?
                 <tr key= {info.id}>
-                    <td>
+                    
                         {info.trades.map(wants => {
                             <npcWant key = {wants.toString()} value = {wants}/>
                             return (
                                 wants.map(item => {
                                     <itemList key = {item.toString()} value = {item} />
                                     return(
-                                        item.itemName
+                                        <td key = {item}>
+                                            <div src = {item.itemImageUrl}>{item.itemName}</div>
+                                            <div className= "BR-Text">{item.itemCount}</div>
+                                        </td>
                                     );
                                 })
                             )
                         })}
-                    </td>
-                    <td>
-                    {info.trades.map(gives => {
+                    
+                        {info.trades.map(gives => {
                             <npcGive key = {gives.toString()} value = {gives}/>
                             return (
                                 gives.map(item => {
                                     <itemList key = {item.toString()} value = {item} />
                                     return(
-                                        item.itemName
+                                        <td key = {item}>
+                                            <div src = {item.itemImageUrl}>{item.itemName}</div>
+                                            <div className= "BR-Text">{item.itemCount}</div>
+                                        </td>
                                     );
                                 })
                             )
                         })}
-                    </td>
                 </tr>
             )
         }
@@ -51,7 +55,7 @@ const TraderTable = (props) => {
                 <table>
                     <thead>
                         <tr>
-                            <th>id</th>
+                            {/* <th>id</th>  */}
                             <th>wants</th>
                             <th>gives</th>
                         </tr>
