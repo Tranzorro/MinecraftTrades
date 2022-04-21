@@ -11,11 +11,36 @@ import npc from '../data/trader.json';
 const TraderTable = (props) => {
     const DisplayData = npc.map(
         (info)=>{
+            <npcItem key = {info.toString()} value={info}/>
             return(
                 // add a for loop here to get 1 of each want and give?
-                <tr>
-                    <td>{info.trades.wants}</td>
-                    <td>{info.trades.gives}</td>
+                <tr key= {info.id}>
+                    <td>
+                        {info.trades.map(wants => {
+                            <npcWant key = {wants.toString()} value = {wants}/>
+                            return (
+                                wants.map(item => {
+                                    <itemList key = {item.toString()} value = {item} />
+                                    return(
+                                        item.itemName
+                                    );
+                                })
+                            )
+                        })}
+                    </td>
+                    <td>
+                    {info.trades.map(gives => {
+                            <npcGive key = {gives.toString()} value = {gives}/>
+                            return (
+                                gives.map(item => {
+                                    <itemList key = {item.toString()} value = {item} />
+                                    return(
+                                        item.itemName
+                                    );
+                                })
+                            )
+                        })}
+                    </td>
                 </tr>
             )
         }
@@ -26,6 +51,7 @@ const TraderTable = (props) => {
                 <table>
                     <thead>
                         <tr>
+                            <th>id</th>
                             <th>wants</th>
                             <th>gives</th>
                         </tr>

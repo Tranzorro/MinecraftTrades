@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "",
         "imageUrl": "",
         "trades":
@@ -8,6 +9,58 @@
                 "wants":
                 [
                     {
+                        "id": 1,
+                        "itemName": "emerald",
+                        "itemTooltip":"",
+                        "itemImageUrl": "",
+                        "itemCount": 1
+                    },
+                    {
+                        "id": 2,
+                        "itemName": "emerald",
+                        "itemTooltip":"",
+                        "itemImageUrl": "",
+                        "itemCount": 1
+                    }
+                ],
+                "gives":
+                [
+                    {
+                        "id": 1,
+                        "itemName": "pumpkin",
+                        "itemTooltip":"",
+                        "itemImageUrl": "",
+                        "itemCount": 1
+                    },
+                    {
+                        "id": 2,
+                        "itemName": "pumpkin",
+                        "itemTooltip":"",
+                        "itemImageUrl": "",
+                        "itemCount": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "",
+        "imageUrl": "",
+        "trades":
+        [
+            {
+                "wants":
+                [
+                    {
+                        "id": 1,
+                        "itemName": "",
+                        "itemTooltip":"",
+                        "itemImageUrl": "",
+                        "itemCount": 1
+                    },
+                    {
+                        "id": 2,
                         "itemName": "",
                         "itemTooltip":"",
                         "itemImageUrl": "",
@@ -17,6 +70,14 @@
                 "gives":
                 [
                     {
+                        "id": 1,
+                        "itemName": "",
+                        "itemTooltip":"",
+                        "itemImageUrl": "",
+                        "itemCount": 1
+                    },
+                    {
+                        "id": 2,
                         "itemName": "",
                         "itemTooltip":"",
                         "itemImageUrl": "",
@@ -24,7 +85,6 @@
                     }
                 ]
             }
-        ],
-        "id": 1
+        ]
     }
 ]
