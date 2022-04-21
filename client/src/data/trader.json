@@ -1,0 +1,30 @@
+[
+    {
+        "name": "",
+        "imageUrl": "",
+        "trades":
+        [
+            {
+                "wants":
+                [
+                    {
+                        "itemName": "",
+                        "itemTooltip":"",
+                        "itemImageUrl": "",
+                        "itemCount": 1
+                    }
+                ],
+                "gives":
+                [
+                    {
+                        "itemName": "",
+                        "itemTooltip":"",
+                        "itemImageUrl": "",
+                        "itemCount": 1
+                    }
+                ]
+            }
+        ],
+        "id": 1
+    }
+]
