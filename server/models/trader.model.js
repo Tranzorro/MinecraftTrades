@@ -2,7 +2,9 @@ const  mongoose = require("mongoose");
 
 
 const TradersSchema = new mongoose.Schema({
-
+//created a json like setup for an object with specific nested properties within 1 object.
+// this will contain everything needed for a single trader npc. perhaps.
+// i think i have the objects and array brackets mixed up.
     npc:
     [
         {
