@@ -9,20 +9,17 @@ import npc from '../data/trader.json';
 // pass traderName through props to grab all data from database.
 // this table will be scrollable if it overflows beyond the bottom of the screen.
 const TraderTable = (props) => {
-    const DisplayData = npc.map(
-        (info)=>{
-            <npcItem key = {info.toString()} value={info}/>
+    const DisplayData = npc.map((info)=>{
+            <npcItem key = {info.toString()} value={info.id}/>
             return(
-                // add a for loop here to get 1 of each want and give?
                 <tr key= {info.id}>
-                    
-                        {info.trades.map(wants => {
-                            <npcWant key = {wants.toString()} value = {wants}/>
+                        {info.trades.map((wants) => {
+                            <npcWant key = {wants.toString()} value = {wants.id}/>
                             return (
-                                wants.map(item => {
-                                    <itemList key = {item.toString()} value = {item} />
+                                info.trades.wants.map((item) => {
+                                    <itemList key = {item.toString()} value = {item.id} />
                                     return(
-                                        <td key = {item}>
+                                        <td key = {item.id}>
                                             <div src = {item.itemImageUrl}>{item.itemName}</div>
                                             <div className= "BR-Text">{item.itemCount}</div>
                                         </td>
