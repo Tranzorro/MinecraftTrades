@@ -14,7 +14,8 @@ function App() {
 	return (
 		// <BrowserRouter>
 		<div className="App">
-			<TableInput />
+			{/* Playing with data set to integrate it into database quickly --Thomas 
+			<TableInput />*/}
 			<HomePage nav={<NavBar />} trade={<TraderTable />} />
 
 			{/* <Routes> */}
