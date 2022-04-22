@@ -948,6 +948,12 @@ table{
   min-width: min-content;
   scroll-behavior: smooth;
 }
+.centerTable{
+  flex-basis: 100px;
+  margin: auto;
+  width: 50vw;
+
+}
 .sidenav {
   /* use vh or vw with components, use % for basic html. */
   height: 96vh;
