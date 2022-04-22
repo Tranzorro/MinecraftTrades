@@ -9,8 +9,8 @@ const TableInput = () => {
 			imgUrl: "images/currency_exchange.png",
 			Tooltip: "Give me diamonds, and I'll give you something... special.",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -30,8 +30,8 @@ const TableInput = () => {
 			imgUrl: "images/event_smith.png",
 			Tooltip: "the event smith",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -52,7 +52,7 @@ const TableInput = () => {
 		},
 		{
 			col1: "event token6",
-			col2: "NPick mc  netherite pick efficiency 6, mending, silk touch, unbreaking 3",
+			col2: "netherite pick efficiency 6, mending, silk touch, unbreaking 3",
 		},
 		{
 			col1: "event token",
@@ -83,17 +83,17 @@ const TableInput = () => {
 			imgUrl: "images/event_trader.png",
 			Tooltip: "the event trader",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
 			col1: "event token",
-			col2: "SculkSensor mc  sculk sensor",
+			col2: "sculk sensor",
 		},
 		{
 			col1: "event token",
-			col2: "HeartofSea mc  heart of the sea",
+			col2: "heart of the sea",
 		},
 		{
 			col1: "event token",
@@ -128,8 +128,8 @@ const TableInput = () => {
 			imgUrl: "images/a_not_as_evil_witch.png",
 			Tooltip: " Where am I? HEHEHE",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -165,8 +165,8 @@ const TableInput = () => {
 			imgUrl: "images/adventuring_miner.png",
 			Tooltip: " I crave picnic baskets...",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -218,8 +218,8 @@ const TableInput = () => {
 			imgUrl: "images/apple_farmer.png",
 			Tooltip: " I'm terrified of Doctors... alt=apple farmer> </zzzz>",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -235,8 +235,8 @@ const TableInput = () => {
 			imgUrl: "images/armor_enchanter.png",
 			Tooltip: " Armor buffs!",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -264,8 +264,8 @@ const TableInput = () => {
 			imgUrl: "images/armor_smith.png",
 			Tooltip: "You break it, you die.",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -305,8 +305,8 @@ const TableInput = () => {
 			imgUrl: "images/baker.png",
 			Tooltip: "Shhhh! My yeast is rising. alt=a baker",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -334,8 +334,8 @@ const TableInput = () => {
 			imgUrl: "images/berry_collecter.png",
 			Tooltip: "Life is like a box of berries.",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -359,25 +359,25 @@ const TableInput = () => {
 			imgUrl: "images/boot_shiner.png",
 			Tooltip: "I hope you washed your feet... alt=the boot shiner",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
 			col1: "emerald5",
-			col2: "CBoots mc  chain boots",
+			col2: "chain boots",
 		},
 		{
 			col1: "emerald5",
-			col2: "GBoots mc  gold boots",
+			col2: "gold boots",
 		},
 		{
 			col1: "emerald10",
-			col2: "IBoots mc  iron boots",
+			col2: "iron boots",
 		},
 		{
 			col1: "emerald40",
-			col2: "DBoots mc  diamond boots",
+			col2: "diamond boots",
 		},
 		{
 			col1: "emerald questnugget",
@@ -396,8 +396,8 @@ const TableInput = () => {
 			imgUrl: "images/bowyer.png",
 			Tooltip: "Stop breaking my bows you donkey! alt=the bowyer",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -414,11 +414,11 @@ const TableInput = () => {
 		},
 		{
 			col1: "emerald",
-			col2: "Bow mc  bow",
+			col2: "bow",
 		},
 		{
 			col1: "emerald honey bottle",
-			col2: "power5",
+			col2: "power 5",
 		},
 		{
 			col1: "emerald honey bottle",
@@ -433,21 +433,21 @@ const TableInput = () => {
 			imgUrl: "images/candle_maker.png",
 			Tooltip: "Some of these are made of my ear wax hehe",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
 			col1: "emerald3",
-			col2: "Candles mc  candle",
+			col2: "candle",
 		},
 		{
 			name: "Cook",
 			imgUrl: "images/cook.png",
 			Tooltip: "Ya like meat? I got meat. Grab some and beat it! alt=a cook",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -475,12 +475,12 @@ const TableInput = () => {
 			imgUrl: "images/crossbow_engineer.png",
 			Tooltip: "Want some REAL accuracy?",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
-			col1: "Sticks mc  stick",
+			col1: "stick",
 			col2: "emerald",
 		},
 		{
@@ -512,8 +512,8 @@ const TableInput = () => {
 			imgUrl: "images/dock_worker.png",
 			Tooltip: "the dock worker",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -529,8 +529,8 @@ const TableInput = () => {
 			imgUrl: "images/farmer.png",
 			Tooltip: "a farmer",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -570,8 +570,8 @@ const TableInput = () => {
 			imgUrl: "images/fisherman.png",
 			Tooltip: "a fisherman",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -592,7 +592,7 @@ const TableInput = () => {
 		},
 		{
 			col1: "emerald",
-			col2: "CCod mc  cooked cod",
+			col2: "cooked cod",
 		},
 		{
 			col1: "emerald",
@@ -607,8 +607,8 @@ const TableInput = () => {
 			imgUrl: "images/fletcher.png",
 			Tooltip: "a fletcher",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -656,57 +656,57 @@ const TableInput = () => {
 			imgUrl: ["images/florist.png", "images/florist2.png"],
 			Tooltip: ["a florist", "the other florist"],
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
 			col1: "emerald",
-			col2: "Oxeye mc  oxeye daisy",
+			col2: "oxeye daisy",
 		},
 		{
 			col1: "emerald",
-			col2: "LilyofValley mc  lily of the valley",
+			col2: "lily of the valley",
 		},
 		{
 			col1: "emerald",
-			col2: "Azure mc  azure bluet",
+			col2: "azure bluet",
 		},
 		{
 			col1: "emerald",
-			col2: "Corn mc  cornflower",
+			col2: "cornflower",
 		},
 		{
 			col1: "emerald",
-			col2: "BlueOrchid mc  blue orchid",
+			col2: "blue orchid",
 		},
 		{
 			col1: "emerald",
-			col2: "Allium mc  allium",
+			col2: "allium",
 		},
 		{
 			col1: "emerald",
-			col2: "Dandelion mc  dandelion",
+			col2: "dandelion",
 		},
 		{
 			col1: "emerald",
-			col2: "Poppy mc  poppy",
+			col2: "poppy",
 		},
 		{
 			col1: "emerald",
-			col2: "WTulip mc  white tulip",
+			col2: "white tulip",
 		},
 		{
 			col1: "emerald",
-			col2: "PTulip mc  pink tulip",
+			col2: "pink tulip",
 		},
 		{
 			col1: "emerald",
-			col2: "OTulip mc  orange tulip",
+			col2: "orange tulip",
 		},
 		{
 			col1: "emerald",
-			col2: "RTulip mc  red tulip",
+			col2: "red tulip",
 		},
 		{
 			col1: "quest nugget",
@@ -717,8 +717,8 @@ const TableInput = () => {
 			imgUrl: "images/glass_blower.png",
 			Tooltip: "the glass blower",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -746,8 +746,8 @@ const TableInput = () => {
 			imgUrl: "images/head_smith.png",
 			Tooltip: "the head honcho smith daddy",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -775,7 +775,7 @@ const TableInput = () => {
 			col2: "emerald3",
 		},
 		{
-			col1: "NIngot mc  netherite ingot",
+			col1: "netherite ingot",
 			col2: "emerald48",
 		},
 		{
@@ -791,17 +791,17 @@ const TableInput = () => {
 			imgUrl: "images/helm_polisher.png",
 			Tooltip: "the helmet polisher",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
 			col1: "emerald5",
-			col2: "CHelm mc  chain helm",
+			col2: "chain helm",
 		},
 		{
 			col1: "emerald5",
-			col2: "GHelm mc  gold helm",
+			col2: "gold helm",
 		},
 		{
 			col1: "emerald",
@@ -809,7 +809,7 @@ const TableInput = () => {
 		},
 		{
 			col1: "emerald40",
-			col2: "DHelm mc  diamond helm",
+			col2: "diamond helm",
 		},
 		{
 			col1: "emerald questnugget",
@@ -824,17 +824,17 @@ const TableInput = () => {
 			imgUrl: "images/horse_master.png",
 			Tooltip: "horse guy",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
-			col1: "Leather mc   leather",
+			col1: "leather",
 			col2: "emerald",
 		},
 		{
 			col1: "emerald",
-			col2: "Lead mc  Lead",
+			col2: "Lead",
 		},
 		{
 			col1: "emerald",
@@ -861,8 +861,8 @@ const TableInput = () => {
 			imgUrl: "images/ice_importer.png",
 			Tooltip: "ice importer",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -882,8 +882,8 @@ const TableInput = () => {
 			imgUrl: "images/innkeeper.png",
 			Tooltip: "the innkeeper",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -895,8 +895,8 @@ const TableInput = () => {
 			imgUrl: "images/joe.png",
 			Tooltip: "joe. just joe.",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -912,8 +912,8 @@ const TableInput = () => {
 			imgUrl: "images/lumberjack.png",
 			Tooltip: "he's a lumberjack and he's ok",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -957,8 +957,8 @@ const TableInput = () => {
 			imgUrl: "images/mayor.png",
 			Tooltip: "the stingy mayor",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -970,8 +970,8 @@ const TableInput = () => {
 			imgUrl: ["images/old_bob.png", "images/old_fisherman.png"],
 			Tooltip: ["old bob", "the old fisherman"],
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -995,13 +995,13 @@ const TableInput = () => {
 			imgUrl: "images/preacher.png",
 			Tooltip: "the questionable preacher",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
 			col1: "emerald",
-			col2: "WBottle mc  'Holy Water'",
+			col2: "Holy Water",
 		},
 		{
 			col1: "emerald quest nugget",
@@ -1012,17 +1012,17 @@ const TableInput = () => {
 			imgUrl: "images/pyromancer.png",
 			Tooltip: "the overzealous pyromancer",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
 			col1: "emerald",
-			col2: "FireCharge mc  firecharge",
+			col2: "firecharge",
 		},
 		{
 			col1: "emerald",
-			col2: "FlintSteel mc  flint and steel fire aspect 5, unbreaking 10",
+			col2: "flint and steel fire aspect 5, unbreaking 10",
 		},
 		{
 			col1: "emeraldblaze powder",
@@ -1037,8 +1037,8 @@ const TableInput = () => {
 			imgUrl: "images/quest_bartender.png",
 			Tooltip: "the guild quest bartender",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -1078,8 +1078,8 @@ const TableInput = () => {
 			imgUrl: "images/rancher.png",
 			Tooltip: "the rancher",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -1107,8 +1107,8 @@ const TableInput = () => {
 			imgUrl: "images/retiarius_fighter.png",
 			Tooltip: "the aqua man on land",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -1136,8 +1136,8 @@ const TableInput = () => {
 			imgUrl: "images/saucier.png",
 			Tooltip: "the sauce man",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -1161,20 +1161,20 @@ const TableInput = () => {
 			imgUrl: "images/spa_worker.png",
 			Tooltip: "spa worker",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
-			col1: "FlowerAzLeave mc  flowering azalea leaves",
+			col1: "flowering azalea leaves",
 			col2: "emerald",
 		},
 		{
-			col1: "DriedKelpBlock mc  dried kelp block",
+			col1: "dried kelp block",
 			col2: "emerald",
 		},
 		{
-			col1: "Bamboo mc  bamboo",
+			col1: "bamboo",
 			col2: "emerald",
 		},
 		{
@@ -1182,8 +1182,8 @@ const TableInput = () => {
 			imgUrl: "images/swordswolf.png",
 			Tooltip: "wolf with a sword",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -1219,8 +1219,8 @@ const TableInput = () => {
 			imgUrl: "images/The_Unrefiner.png",
 			Tooltip: "don't care for mining? i'll unrefine your bars... for a cut.",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -1252,8 +1252,8 @@ const TableInput = () => {
 			imgUrl: "images/tool_enchanter.png",
 			Tooltip: "the tool enchanter",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -1273,49 +1273,49 @@ const TableInput = () => {
 			imgUrl: "images/tool_smith.png",
 			Tooltip: "the tool smith",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
 			col1: "emerald3",
-			col2: "IPick mc  iron pick",
+			col2: "iron pick",
 		},
 		{
 			col1: "emerald3",
-			col2: "IShovel mc  iron shovel",
+			col2: "iron shovel",
 		},
 		{
 			col1: "emerald3",
-			col2: "IAxe mc  iron axe",
+			col2: "iron axe",
 		},
 		{
 			col1: "emerald",
-			col2: "IHoe mc  iron hoe",
+			col2: "iron hoe",
 		},
 		{
 			col1: "emerald",
-			col2: "DPick mc  diamond pick",
+			col2: "diamond pick",
 		},
 		{
 			col1: "emerald",
-			col2: "DAxe mc  diamond axe",
+			col2: "diamond axe",
 		},
 		{
 			col1: "emerald",
-			col2: "DShovel mc  diamond shovel",
+			col2: "diamond shovel",
 		},
 		{
 			col1: "emerald",
-			col2: "DHoe mc  diamond hoe",
+			col2: "diamond hoe",
 		},
 		{
 			name: "Travelling Gatherer",
 			imgUrl: "images/travelling_gatherer.png",
 			Tooltip: "the travelling gatherer fox",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -1351,8 +1351,8 @@ const TableInput = () => {
 			imgUrl: "images/vinny_the_unkillable.png",
 			Tooltip: "vinny the unkillable",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -1376,8 +1376,8 @@ const TableInput = () => {
 			imgUrl: "images/warehouse_worker.png",
 			Tooltip: "a warehouse worker",
 			trades: {
-				wants: [{ name: null }],
-				gives: [{ name: null }],
+				wants: [],
+				gives: [],
 			},
 		},
 		{
@@ -1424,34 +1424,35 @@ const TableInput = () => {
 		}
 	});
 
-	console.log(tableobj.length);
+	//Add gives
 	let j = 0;
 	let g = 0;
 	for (let i = 1; i < tableobj.length; i++) {
+		let temp = { itemName: null };
 		if (tableobj[i].name) {
 			j++;
+			g = 0;
 		} else if (tableobj[i].col1) {
-			console.log(tableData[j].trades.wants[g]);
-			console.log(tableobj[i].col1);
-			//tableData[j].trades.wants[g].name = tableobj[i].col1;
+			temp.itemName = tableobj[i].col1;
+			tableData[j].trades.gives[g] = temp;
 			g++;
 		}
 	}
 	j = 0;
 	g = 0;
-	// for (let i = 1; i < tableobj.Traders.length; i++) {
-	// 	if (tableobj.Traders[i].name) {
-	// 		j++;
-	// 	} else if (tableobj.Traders[i].col2) {
-	// 		tableData[j].trades.gives[g].name = tableobj.Traders[i].col2;
-	// 		g++;
-	// 	}
-	// }
-	// j = 0;
+	for (let i = 1; i < tableobj.length; i++) {
+		let temp = { itemName: null };
+		if (tableobj[i].name) {
+			j++;
+			g = 0;
+		} else if (tableobj[i].col2) {
+			temp.itemName = tableobj[i].col2;
+			tableData[j].trades.wants[g] = temp;
+			g++;
+		}
+	}
 
 	console.log(tableData);
-
-	console.log((tableData[0].trades.wants[0].name = "taco"));
 
 	const addAll = () => {
 		tableData.map((trader, index) => {
