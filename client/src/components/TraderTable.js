@@ -51,7 +51,7 @@ const TraderTable = (props) => {
 		);
 	});
 	return (
-		<div className="trades">
+		<div className="trades centerTable">
 			<div className="tablewrapper">
 				<table>
 					<thead>
