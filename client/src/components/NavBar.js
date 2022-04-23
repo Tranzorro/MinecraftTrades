@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from  'react';
+import deleteButton from './DeleteButton';
+import {Link} from 'react-router-dom';
 
 // this will contain every required trader name variable, which will be passed to the TraderTable via props
 // without these the app will not pull the correct information to display on screen.
 // this will be the only front end file that needs updating to add more traders.
 
 const NavBar = (props) => {
+    const [traderName, setTraderName] = useState("");
 
 // replace a tags with a for loop to insert a new a tag instead, for each trader found in db
 // this navbar should be scrollable
@@ -58,8 +61,10 @@ const NavBar = (props) => {
                     <p>icons supplied in part by</p>
                     <p>minecraft textures</p> 
                     <a href="https://discordapp.com/users/479091485283975168/">Pineapple</a>
-                    <button> add trader</button>
-                    <button> Delete trader</button>
+                    <Link to = "/api/traders/create">
+                        <button> add trader</button>
+                    </Link>
+                    <deleteButton  />
                 </nav>
             );
 

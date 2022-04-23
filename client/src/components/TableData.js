@@ -1466,7 +1466,7 @@ const TableInput = () => {
 	};
 
 	// useEffect(() => {
-	// 	addAll();
+		// addAll();
 	// }, []);
 
 	return <></>;
