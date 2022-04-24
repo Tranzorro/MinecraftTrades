@@ -5,9 +5,9 @@ import NavBar from './NavBar';
 import { useParams } from 'react-router-dom';
 
 //tradertable needs to be able to read traderName object data to be able to populate table with info.
-const HomePage = ()=>{
+const HomePage = (props)=>{
     
-    const [traderName, setTraderName] = useState();
+    const {traderName, setTraderName} = props;
     useEffect(() =>{
         axios.get('http://localhost:8000/api/traders/getAll')
         .then((res)=>{

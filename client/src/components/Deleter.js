@@ -12,12 +12,12 @@ const Deleter = (props) => {
     const deleteTrader = (id) =>{
             axios.delete('http://localhost:8000/api/traders/delete/' + id)
             .then((res)=>{
-                // removeFromDom(id);
+                removeFromDom(id);
                 navigate("/"); 
             })
             .catch((err)=>console.log(err))
         }
-        removeFromDom(id);
+        // removeFromDom(id);
     return(
         <button onClick={(e)=>{deleteTrader(props.theTrader)}}> Delete </button>
     )

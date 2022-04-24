@@ -13,9 +13,10 @@ import UpdateTrader from './components/UpdateTrader';
 // table input is not used as main app functions.
 
 function App() {
-	const [tradersList, setTradersList] = useState([]);
+	const [traderName, setTraderName] = useState();
+	console.log(traderName);
 	const removeFromDom = traderId => {
-		setTradersList(tradersList.filter(trader => trader._id != traderId));
+		setTraderName(traderName.filter(trader => trader._id != traderId));
 	}
 	return (
 		<BrowserRouter>
@@ -25,7 +26,7 @@ function App() {
 			
 
 			<Routes>
-			<Route element={<HomePage  nav={<NavBar removeFromDom={removeFromDom} tradersList={tradersList} setTradersList={setTradersList} />} trade={<TraderTable />} />} path="/" />
+			<Route element={<HomePage traderName={traderName} setTraderName={setTraderName} nav={<NavBar removeFromDom={removeFromDom} traderName={traderName} setTraderName={setTraderName} />} trade={<TraderTable traderName={traderName} setTraderName={setTraderName} />} />} path="/" />
 			<Route element={<TraderTable  />} path="/api/traders/:id"/>
 			<Route element={<UpdateTrader/>} path="/api/traders/edit/:id" />
 			<Route element={<TraderForm/>} path="/api/traders/create" />
