@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from  'react';
 import axios from 'axios';
-import DeleteButton from './DeleteButton';
+import Deleter from './Deleter';
 import {Link} from 'react-router-dom';
 
 // this will contain every required trader name variable, which will be passed to the TraderTable via props
@@ -24,10 +24,10 @@ const NavBar = (props) => {
     return (
         <nav className="hideScroll sidenav"> 
         {traderName ? 
-            traderName.map((name, index)=>{
+            traderName.map((trader, index)=>{
                     return(
                         
-                        <div><a href="#{name.name}">{name.name}</a> <DeleteButton /></div>
+                        <div><a key = {trader.id} href="#{trader.name}">{trader.name}</a> <Deleter theTrader= {trader._id}id = {trader.id} /></div>
                         
                 )})
             : null}
