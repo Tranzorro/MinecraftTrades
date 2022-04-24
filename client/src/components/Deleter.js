@@ -6,20 +6,20 @@ import {Link} from 'react-router-dom';
 
 const Deleter = (props) => {
     const navigate = useNavigate();
-    const {theTrader} = props;
+    const {traderName} = props;
     const {removeFromDom} = props;
     const {id} = useParams();
     const deleteTrader = (id) =>{
             axios.delete('http://localhost:8000/api/traders/delete/' + id)
             .then((res)=>{
-                removeFromDom(id);
+                this.removeFromDom(id);
                 navigate("/"); 
             })
             .catch((err)=>console.log(err))
         }
         // removeFromDom(id);
     return(
-        <button onClick={(e)=>{deleteTrader(props.theTrader)}}> Delete </button>
+        <button onClick={(e)=>{deleteTrader(props.traderName)}}> Delete </button>
     )
 }
 

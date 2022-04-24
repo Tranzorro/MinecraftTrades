@@ -8,6 +8,8 @@ import { useParams } from 'react-router-dom';
 const HomePage = (props)=>{
     
     const {traderName, setTraderName} = props;
+    console.log("homepage logging... traderName prop is...")
+    console.log(traderName);
     useEffect(() =>{
         axios.get('http://localhost:8000/api/traders/getAll')
         .then((res)=>{
