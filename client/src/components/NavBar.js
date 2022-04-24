@@ -27,7 +27,7 @@ const NavBar = (props) => {
             traderName.map((name, index)=>{
                     return(
                         
-                            <a href="#{name.name}">{name.name}</a>
+                        <div><a href="#{name.name}">{name.name}</a> <DeleteButton /></div>
                         
                 )})
             : null}
@@ -82,7 +82,7 @@ const NavBar = (props) => {
                     <Link to = "/api/traders/create">
                         <button> add trader</button>
                     </Link>
-                    <DeleteButton  />
+                    
                 </nav>
             );
 

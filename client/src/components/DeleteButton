@@ -18,9 +18,9 @@ const DeleteButton = (props) => {
             .catch((err)=>console.log(err))
         }
 
-        return(
-            <button onClick={(e)=>{deleteTrader(theTrader._id)}}> Delete </button>
-        )
+    return(
+        <button onClick={(e)=>{deleteTrader(theTrader._id)}}> Delete </button>
+    )
 }
 
 export default DeleteButton;
