@@ -11,16 +11,7 @@ const HomePage = (props)=>{
     const {traderName, setTraderName} = props;
     console.log("homepage logging... traderName prop is...")
     console.log(traderName);
-    useEffect(() =>{
-        axios.get('http://localhost:8000/api/traders/getAll')
-        .then((res)=>{
-            // console.log(res);
-            console.log(res.data);
-            setTraderName(res.data);
-        })
-        .catch((err)=>console.log(err))
-        
-    },[])
+    
     return (
 
         <div className="mainWrapper">
