@@ -1,18 +1,29 @@
-import React, {useState} from 'react';
+import React, { useEffect, useState } from  'react';
+import axios from 'axios';
 import TraderTable from './TraderTable';
 import NavBar from './NavBar';
-import { renderMatches } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 
-const HomePage = (props)=>{
+const HomePage = ()=>{
     
-    // const [nav, trade] = this.props;
+    const [traderName, setTraderName] = useState();
+    useEffect(() =>{
+        axios.get('http://localhost:8000/api/traders/getAll')
+        .then((res)=>{
+            // console.log(res);
+            console.log(res.data);
+            setTraderName(res.data);
+        })
+        .catch((err)=>console.log(err))
+        
+    },[])
     return (
 
         <div className="mainWrapper">
             <div className="main hideScroll">
-                {props.nav}
-                {props.trade}
+                <NavBar traderName = {traderName} />
+                <TraderTable traderName = {traderName} />
             </div>
         </div>
     )
