@@ -8,6 +8,7 @@ import UpdateTrader from './UpdateTrader';
 
 const NavBar = (props) => {
     const {traderName} = props;
+    // const {theTraderId, setTheTraderId} = props;
     const navigate = useNavigate();
     const {removeFromDom} = props;
     const [deleted, setDeleted] = useState(false);
@@ -36,9 +37,10 @@ return (
                 return(
                     
                     <div key = {index}>
-                        {/* <p>{trader._id}</p> */}
+                        <p>{trader._id}</p>
+                        {/* {setTheTraderId = trader._id}; */}
                         <a href="#{trader.name}">{trader.name}</a> 
-                        <Link to = '/api/traders/edit/${trader._id}' >
+                        <Link to = {'/traders/edit/${trader._id}'} >
                             <button> edit trader</button>
                         </Link>
                         <button onClick={(e)=> onDeleteHandler(e,trader._id)}>
@@ -53,7 +55,7 @@ return (
                 <p>icons supplied in part by</p>
                 <p>minecraft textures</p> 
                 <a href="https://discordapp.com/users/479091485283975168/">Pineapple</a>
-                <Link to = "/api/traders/create">
+                <Link to = "/traders/create">
                     <button> add trader</button>
                 </Link>
                 

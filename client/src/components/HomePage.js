@@ -7,6 +7,7 @@ import { useParams } from 'react-router-dom';
 //tradertable needs to be able to read traderName object data to be able to populate table with info.
 const HomePage = (props)=>{
     
+    // const {theTraderId, setTheTraderId} = props;
     const {traderName, setTraderName} = props;
     console.log("homepage logging... traderName prop is...")
     console.log(traderName);
@@ -24,7 +25,7 @@ const HomePage = (props)=>{
 
         <div className="mainWrapper">
             <div className="main hideScroll">
-                <NavBar traderName = {traderName} />
+                <NavBar traderName = {traderName}/>
                 {/* <TraderTable traderName = {traderName} /> */}
             </div>
         </div>

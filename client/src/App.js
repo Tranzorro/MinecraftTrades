@@ -14,6 +14,7 @@ import UpdateTrader from './components/UpdateTrader';
 
 function App() {
 	const [traderName, setTraderName] = useState();
+	// const [theTraderId, setTheTraderId] = useState();
 	console.log("app.js logging traderName State. value is...")
 	console.log(traderName);
 	const removeFromDom = traderId => {
@@ -31,8 +32,8 @@ function App() {
 			<Routes>
 			<Route element={<HomePage traderName={traderName} setTraderName={setTraderName} nav={<NavBar removeFromDom={removeFromDom} traderName={traderName} setTraderName={setTraderName} />} trade={<TraderTable traderName={traderName} setTraderName={setTraderName} />} />} path="/" />
 			{/* <Route element={<TraderTable  />} path="/api/traders/:id"/> */}
-			<Route element={<UpdateTrader/>} path="/api/traders/edit/" />
-			<Route element={<TraderForm/>} path="/api/traders/create" />
+			<Route element={<UpdateTrader traderName={traderName} setTraderName={setTraderName} />} path="/traders/edit/:_id" />
+			<Route element={<TraderForm traderName={traderName} setTraderName={setTraderName}/>} path="/traders/create" />
 
 			</Routes>
 		</div>
