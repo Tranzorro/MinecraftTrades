@@ -4,7 +4,7 @@ import {useParams} from 'react-router-dom';
 import {useNavigate} from "react-router-dom";
 import {Link} from 'react-router-dom';
 
-const deleteButton = (props) => {
+const DeleteButton = (props) => {
     const navigate = useNavigate();
     const [theTrader, setTheTrader] = useState({});
     const {removeFromDom} = props;
@@ -23,4 +23,4 @@ const deleteButton = (props) => {
         )
 }
 
-export default deleteButton;
+export default DeleteButton;

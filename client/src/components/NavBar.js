@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from  'react';
 import axios from 'axios';
-import deleteButton from './DeleteButton';
+import DeleteButton from './DeleteButton';
 import {Link} from 'react-router-dom';
 
 // this will contain every required trader name variable, which will be passed to the TraderTable via props
@@ -13,23 +13,24 @@ const NavBar = (props) => {
     useEffect(() =>{
         axios.get('http://localhost:8000/api/traders/getAll')
         .then((res)=>{
-            console.log(res);
+            // console.log(res);
             console.log(res.data);
             setTraderName(res.data);
         })
         .catch((err)=>console.log(err))
         
     },[])
-// replace a tags with a for loop to insert a new a tag instead, for each trader found in db
-// this navbar should be scrollable
+// nav bar is now populated by database information.
     return (
         <nav className="hideScroll sidenav"> 
-        {traderName.map((name, index)=>{
+        {traderName ? 
+            traderName.map((name, index)=>{
                     return(
-                        <p key={index}>
-                            <a href="#{name}">{name}</a>
-                        </p>
-                )})}
+                        
+                            <a href="#{name.name}">{name.name}</a>
+                        
+                )})
+            : null}
                     {/* <a href="#CurrencyExchange">Currency Exchange</a>
                     <a href="#EventSmith">Event Smith</a>
                     <a href="#EventTrader">Event Trader</a>
@@ -81,7 +82,7 @@ const NavBar = (props) => {
                     <Link to = "/api/traders/create">
                         <button> add trader</button>
                     </Link>
-                    <deleteButton  />
+                    <DeleteButton  />
                 </nav>
             );
 
