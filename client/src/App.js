@@ -31,7 +31,7 @@ function App() {
 			<Routes>
 			<Route element={<HomePage traderName={traderName} setTraderName={setTraderName} nav={<NavBar removeFromDom={removeFromDom} traderName={traderName} setTraderName={setTraderName} />} trade={<TraderTable traderName={traderName} setTraderName={setTraderName} />} />} path="/" />
 			{/* <Route element={<TraderTable  />} path="/api/traders/:id"/> */}
-			<Route element={<UpdateTrader/>} path="/api/traders/edit/:id" />
+			<Route element={<UpdateTrader/>} path="/api/traders/edit/" />
 			<Route element={<TraderForm/>} path="/api/traders/create" />
 
 			</Routes>
