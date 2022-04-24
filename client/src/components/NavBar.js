@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom';
 
 const NavBar = (props) => {
     const {traderName} = props;
+    const {removeFromDom} = props;
 
     
 // nav bar is now populated by database information.
@@ -15,7 +16,7 @@ const NavBar = (props) => {
             props.traderName.map((trader, index)=>{
                     return(
                         
-                        <div key = {index}><a href="#{trader.name}">{trader.name}</a> <Deleter theTrader= {traderName}id = {trader.id} /></div>
+                        <div key = {index}><a href="#{trader.name}">{trader.name}</a> <Deleter removeFromDom={removeFromDom} theTrader= {traderName}id = {trader.id} /></div>
                         
                 )})
             : null}
