@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from  'react';
+import axios from 'axios';
 import deleteButton from './DeleteButton';
 import {Link} from 'react-router-dom';
 
@@ -7,13 +8,29 @@ import {Link} from 'react-router-dom';
 // this will be the only front end file that needs updating to add more traders.
 
 const NavBar = (props) => {
-    const [traderName, setTraderName] = useState("");
+    const [traderName, setTraderName] = useState();
 
+    useEffect(() =>{
+        axios.get('http://localhost:8000/api/traders/getAll')
+        .then((res)=>{
+            console.log(res);
+            console.log(res.data);
+            setTraderName(res.data);
+        })
+        .catch((err)=>console.log(err))
+        
+    },[])
 // replace a tags with a for loop to insert a new a tag instead, for each trader found in db
 // this navbar should be scrollable
     return (
         <nav className="hideScroll sidenav"> 
-                    <a href="#CurrencyExchange">Currency Exchange</a>
+        {traderName.map((name, index)=>{
+                    return(
+                        <p key={index}>
+                            <a href="#{name}">{name}</a>
+                        </p>
+                )})}
+                    {/* <a href="#CurrencyExchange">Currency Exchange</a>
                     <a href="#EventSmith">Event Smith</a>
                     <a href="#EventTrader">Event Trader</a>
                     <a href="#Witch">A not as evil witch</a>
@@ -56,7 +73,7 @@ const NavBar = (props) => {
                     <a href="#ToolSmith">Tool Smith</a>
                     <a href="#TravelGather">Travelling Gatherer</a>
                     <a href="#Vinny">Vinny the Unkillable</a>
-                    <a href="#WarehouseWorker">Warehouse Worker</a>
+                    <a href="#WarehouseWorker">Warehouse Worker</a> */}
                     <p>site created by</p> <a href="https://discordapp.com/users/138824505458950145/">Larck Drakengold</a>
                     <p>icons supplied in part by</p>
                     <p>minecraft textures</p> 
