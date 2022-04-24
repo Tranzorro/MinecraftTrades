@@ -19,6 +19,8 @@ function App() {
 	const removeFromDom = traderId => {
 		setTraderName(traderName.filter(trader => trader._id != traderId));
 	}
+	console.log("removefromdom logging... its value is")
+	console.log(removeFromDom.traderId)
 	return (
 		<BrowserRouter>
 		<div className="App">

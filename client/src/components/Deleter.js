@@ -8,11 +8,12 @@ const Deleter = (props) => {
     const navigate = useNavigate();
     const {traderName} = props;
     const {removeFromDom} = props;
-    const {id} = useParams();
+    const {id} = props;
     const deleteTrader = (id) =>{
-            axios.delete('http://localhost:8000/api/traders/delete/' + id)
+            axios.delete('http://localhost:8000/api/traders/delete/' + props.id)
             .then((res)=>{
-                this.removeFromDom(id);
+                console.log(props.id);
+                this.removeFromDom(traderName);
                 navigate("/"); 
             })
             .catch((err)=>console.log(err))

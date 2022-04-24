@@ -18,7 +18,7 @@ const NavBar = (props) => {
             props.traderName.map((trader, index)=>{
                     return(
                         
-                        <div key = {index}><a href="#{trader.name}">{trader.name}</a> <Deleter removeFromDom={removeFromDom} traderName= {traderName}id = {trader.id} /></div>
+                        <div key = {index}><a href="#{trader.name}">{trader.name}</a> <Deleter removeFromDom={removeFromDom} traderName= {traderName}id = {traderName.id} /></div>
                         
                 )})
             : null}
