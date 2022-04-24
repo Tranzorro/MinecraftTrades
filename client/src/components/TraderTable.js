@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from 'react-router-dom';
-import npc from "../data/trader.json";
+// import npc from "../data/trader.json";
 
 // this is the trader table, it must hold an image related to the exact trader being displayed.
 // modularize the table with a loop and variables. this table will be reused.
@@ -12,19 +12,19 @@ import npc from "../data/trader.json";
 // this table will be scrollable if it overflows beyond the bottom of the screen.
 const TraderTable = (props) => {
 	//just a comment
-	const {traderName} = useParams();
-	const DisplayData = npc.map((info, index) => {
-		<npcItem key={index.toString()} value={info.id} />;
+	const {traderName} = props;
+	const DisplayData = props.traderName.map((info, index) => {
+		<npcItem key={index.toString()} value={info} />;
 		return (
 			<tr key={index}>
 				{info.trades.map((trades, index) => {
-					<npcWant key={index.toString()} value={trades.id} />;
+					<npcWant key={index.toString()} value={trades} />;
 					return (
 						<td key={index}>
 							{trades.wants.map((item, index) => {
-								<itemList key={index.toString()} value={item.id} />;
+								<itemList key={index.toString()} value={item} />;
 								return (
-									<div key={index.id}>
+									<div key={index}>
 										<div key={index} src={item.itemImageUrl}>{item.itemName}</div>
 										<div key={index} className="BR-Text">{item.itemCount}</div>
 									</div>
@@ -35,11 +35,11 @@ const TraderTable = (props) => {
 				})}
 
 				{info.trades.map((trades, index) => {
-					<npcWant key={index.toString()} value={trades.id} />;
+					<npcWant key={index.toString()} value={trades} />;
 					return (
 						<td key={index}>
 							{trades.gives.map((item, index) => {
-								<itemList key={index.toString()} value={item.id} />;
+								<itemList key={index.toString()} value={item} />;
 								return (
 									<div key={index}>
 										<div key={index} src={item.itemImageUrl}>{item.itemName}</div>
@@ -59,16 +59,18 @@ const TraderTable = (props) => {
 				<table>
 					<thead>
 						<tr>
-							{/* <th>id</th>  */}
 							<th>wants</th>
 							<th>gives</th>
 						</tr>
 					</thead>
+					{props.traderName?
 					<tbody>{DisplayData}</tbody>
+					:null}
 				</table>
 			</div>
 		</div>
 	);
+	
 
 	// return (
 	//     <div className="trades">

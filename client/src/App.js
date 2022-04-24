@@ -25,8 +25,8 @@ function App() {
 			
 
 			<Routes>
-			<Route element={<HomePage nav={<NavBar tradersList={tradersList} setTradersList={setTradersList} />} trade={<TraderTable />} />} path="/" />
-			<Route element={<TraderTable removeFromDom={removeFromDom} />} path="/api/traders/:id"/>
+			<Route element={<HomePage removeFromDom={removeFromDom} nav={<NavBar tradersList={tradersList} setTradersList={setTradersList} />} trade={<TraderTable />} />} path="/" />
+			<Route element={<TraderTable  />} path="/api/traders/:id"/>
 			<Route element={<UpdateTrader/>} path="/api/traders/edit/:id" />
 			<Route element={<TraderForm/>} path="/api/traders/create" />
 

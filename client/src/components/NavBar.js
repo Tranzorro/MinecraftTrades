@@ -4,18 +4,18 @@ import Deleter from './Deleter';
 import {Link} from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 
-const NavBar = params => {
-    const {traderName} = useParams();
+const NavBar = (props) => {
+    const {traderName} = props;
 
     
 // nav bar is now populated by database information.
     return (
         <nav className="hideScroll sidenav"> 
-        {params.traderName ? 
-            params.traderName.map((trader, index)=>{
+        {props.traderName ? 
+            props.traderName.map((trader, index)=>{
                     return(
                         
-                        <div key = {index}><a href="#{trader.name}">{trader.name}</a> <Deleter theTrader= {trader._id}id = {trader.id} /></div>
+                        <div key = {index}><a href="#{trader.name}">{trader.name}</a> <Deleter theTrader= {traderName}id = {trader.id} /></div>
                         
                 )})
             : null}

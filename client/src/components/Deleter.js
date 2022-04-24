@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 const Deleter = (props) => {
     const navigate = useNavigate();
-    const [theTrader, setTheTrader] = useState();
+    const {theTrader} = props;
     const {removeFromDom} = props;
     const {id} = useParams();
     const deleteTrader = (id) =>{
@@ -19,7 +19,7 @@ const Deleter = (props) => {
         }
 
     return(
-        <button onClick={(e)=>{deleteTrader(theTrader._id)}}> Delete </button>
+        <button onClick={(e)=>{deleteTrader(props.theTrader)}}> Delete </button>
     )
 }
 
