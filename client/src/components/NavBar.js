@@ -40,8 +40,8 @@ return (
                         <p>{trader._id}</p>
                         {/* {setTheTraderId = trader._id}; */}
                         <a href="#{trader.name}">{trader.name}</a> 
-                        <Link to = '/traders/${trader._id}' >
-                            <button> edit trader</button>
+                        <Link to = {`/traders/${trader._id}`} > Edit Trader
+                            {/* <button> edit trader</button> */}
                         </Link>
                         <button onClick={(e)=> onDeleteHandler(e,trader._id)}>
                             Delete

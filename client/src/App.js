@@ -13,12 +13,13 @@ import UpdateTrader from './components/UpdateTrader';
 // table input is not used as main app functions.
 
 function App(props) {
-	const [traderName, setTraderName] = useState();
+	const [traderName, setTraderName] = useState([]);
 	// const [theTraderId, setTheTraderId] = useState();
 	console.log("app.js logging traderName State. value is...")
 	console.log(traderName);
 	const removeFromDom = traderId => {
 		setTraderName(traderName.filter(trader => trader._id != traderId));
+		//may need work on above line 						 ^ maybe !==
 	}
 	useEffect(() =>{
         axios.get('http://localhost:8000/api/traders/getAll')
@@ -30,10 +31,8 @@ function App(props) {
         .catch((err)=>console.log(err))
         
     },[])
-	console.log("app.js is logging traderName...")
-	console.log("------------------------------")
-	console.log(traderName)
-	console.log("------------------------------")
+
+
 	return (
 		<BrowserRouter>
 		<div className="App">
@@ -44,7 +43,7 @@ function App(props) {
 			<Routes>
 			<Route element={<HomePage traderName={traderName} setTraderName={setTraderName} nav={<NavBar removeFromDom={removeFromDom} traderName={traderName} setTraderName={setTraderName} />} trade={<TraderTable traderName={traderName} setTraderName={setTraderName} />} />} path="/" />
 			{/* <Route element={<TraderTable  />} path="/api/traders/:id"/> */}
-			<Route element={<UpdateTrader traderName={traderName} setTraderName={setTraderName} />} path="/traders/:_id" />
+			<Route element={<UpdateTrader traderName={traderName} setTraderName={setTraderName} />} path="/traders/:id" />
 			<Route element={<TraderForm traderName={traderName} setTraderName={setTraderName}/>} path="/traders/create" />
 
 			</Routes>

@@ -3,14 +3,15 @@ import axios from 'axios';
 import {useNavigate} from "react-router-dom";
 import {useParams} from 'react-router-dom';
 const UpdateTrader = (props) => {
-    const { traderName } = props;
+    const { traderName, setTraderName } = props;
+    const {id} = useParams();
     const [name, setName] = useState("");
     const [want, setWant] = useState("");
     const [give, setGive] = useState("");
     const [errors, setErrors] = useState({}); 
     
     useEffect(() =>{
-        axios.get('http://localhost:8000/api/traders/' + props.traderName._id)
+        axios.get('http://localhost:8000/api/traders/' + id)
         .then((res)=>{
             console.log(res);
             console.log(res.data);
@@ -25,8 +26,8 @@ const UpdateTrader = (props) => {
     },[])
     const updateTrader = (e) => {
         e.preventDefault();
-        console.log(props.traderName._id);
-        axios.put('http://localhost:8000/api/traders/edit/' + props.traderName._id, {
+        console.log(id);
+        axios.put('http://localhost:8000/api/traders/edit/' + id, {
             name,
             want,
             give,
