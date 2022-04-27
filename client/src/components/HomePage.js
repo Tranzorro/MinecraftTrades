@@ -4,20 +4,20 @@ import TraderTable from './TraderTable';
 import NavBar from './NavBar';
 import { useParams } from 'react-router-dom';
 
-//tradertable needs to be able to read traderName object data to be able to populate table with info.
+//tradertable needs to be able to read traderList object data to be able to populate table with info.
 const HomePage = (props)=>{
     
     // const {theTraderId, setTheTraderId} = props;
-    const {traderName, setTraderName} = props;
-    console.log("homepage logging... traderName prop is...")
-    console.log(traderName);
+    const {traderList, setTraderList} = props;
+    console.log("homepage logging... traderList prop is...")
+    console.log(traderList);
     
     return (
 
         <div className="mainWrapper">
             <div className="main hideScroll">
-                <NavBar traderName = {traderName}/>
-                {/* <TraderTable traderName = {traderName} /> */}
+                <NavBar traderList = {traderList}/>
+                <TraderTable traderList = {traderList} />
             </div>
         </div>
     )

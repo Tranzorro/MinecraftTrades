@@ -32,9 +32,9 @@ const TradersSchema = new mongoose.Schema(
 
 		// trying something below. ignore it.
 
-		// traderName:{
+		// traderList:{
 		// traderProfileImage:String,
-		// traderName: String,
+		// traderList: String,
 		// message: "hmmmm name",
 		// minlength: [4, "more than 4 characters please."],
 		// required: [true, "need a name duh."],

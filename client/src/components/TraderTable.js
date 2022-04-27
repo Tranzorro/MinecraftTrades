@@ -1,52 +1,37 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from 'react-router-dom';
-// import npc from "../data/trader.json";
-
-// this is the trader table, it must hold an image related to the exact trader being displayed.
-// modularize the table with a loop and variables. this table will be reused.
-
-// elements of the table: 1 image 1 name 1 column of wants 1 column of gives
-// to access the info, use a variable to grab all related data based on navbar variable "traderName"
-// pass traderName through props to grab all data from database.
-// this table will be scrollable if it overflows beyond the bottom of the screen.
 const TraderTable = (props) => {
-	//just a comment
-	const {traderName} = props;
-	const DisplayData = props.traderName.map((info, index) => {
-		<npcItem key={index.toString()} value={info} />;
+	const {traderList} = props;
+	const DisplayData = traderList?.map((trader, index) => {
+// what i need: create N rows for trade.wants.length.   get a want and give of trade[n] and pass in td of want[n] and gives[n] within each generated row.
+
+// how it works right now, for each trader, return 1 row, then map the wants and generate a td until no more wants. same with gives, then makes new row.
+// this process is incorrect. this is basically a display all. similar to original html version. good, but not quite.
+
 		return (
 			<tr key={index}>
-				{info.trades.map((trades, index) => {
-					<npcWant key={index.toString()} value={trades} />;
+
+		{/* cannot map an object, only array. */}
+
+				{trader.trades.wants.map((item, index) => {
 					return (
 						<td key={index}>
-							{trades.wants.map((item, index) => {
-								<itemList key={index.toString()} value={item} />;
-								return (
-									<div key={index}>
-										<div key={index} src={item.itemImageUrl}>{item.itemName}</div>
-										<div key={index} className="BR-Text">{item.itemCount}</div>
+									<div >
+										<div  src={item.itemImageUrl}>{item.itemName}</div>
+										<div  className="BR-Text">{item.itemCount}</div>
 									</div>
-								);
-							})}
 						</td>
 					);
 				})}
 
-				{info.trades.map((trades, index) => {
-					<npcWant key={index.toString()} value={trades} />;
+				{trader.trades.gives.map((item, index) => {
 					return (
 						<td key={index}>
-							{trades.gives.map((item, index) => {
-								<itemList key={index.toString()} value={item} />;
-								return (
-									<div key={index}>
-										<div key={index} src={item.itemImageUrl}>{item.itemName}</div>
-										<div key={index} className="BR-Text">{item.itemCount}</div>
+									<div >
+										<div  src={item.itemImageUrl}>{item.itemName}</div>
+										<div className="BR-Text">{item.itemCount}</div>
 									</div>
-								);
-							})}
 						</td>
 					);
 				})}
@@ -59,83 +44,18 @@ const TraderTable = (props) => {
 				<table>
 					<thead>
 						<tr>
+							<th> insert image of trader here</th>
 							<th>wants</th>
 							<th>gives</th>
 						</tr>
 					</thead>
-					{props.traderName?
+					{traderList?
 					<tbody>{DisplayData}</tbody>
 					:null}
 				</table>
 			</div>
 		</div>
 	);
-	
-
-	// return (
-	//     <div className="trades">
-	//         <div className="tablewrapper">
-	//         <table >
-	//             <tbody>
-	//                 <tr>
-
-	//                     <th className="tradername">
-	//                         Currency Exchange
-	//                     </th>
-	//                     <th>
-	//                         <img src="/currency_exchange.png" className="portrait" title="Give me diamonds, and I'll give you something... special." alt="currency exchange">
-	//                         </img>
-	//                     </th>
-	//                 </tr>
-	//                 <tr>
-	//                     <th className="tradername">Wants</th>
-	//                     <th className="tradername">Gives</th>
-	//                 </tr>
-	//                 <tr>
-	//                     <th>
-	//                         <div className="Diamond mc  centered" title="diamond">
-	//                             <div className="BR-Text">
-	//                                 3
-	//                             </div>
-	//                         </div>
-	//                     </th>
-	//                     <th>
-	//                         <div className="Qn mc  centered" title="quest nugget" >
-
-	//                         </div>
-	//                     </th>
-	//                 </tr>
-	//                 <tr>
-	//                     <th>
-	//                         <div className="Qn mc  centered" title="quest nugget">
-	//                             <div className="BR-Text">
-	//                                 10
-	//                             </div>
-	//                         </div>
-	//                     </th>
-	//                     <th>
-	//                         <div className="Et mc  centered" title="event token">
-	//                         </div>
-	//                     </th>
-	//                 </tr>
-	//                 <tr>
-	//                     <th>
-	//                         <div className="Et mc  centered" title="event token">
-	//                         </div>
-	//                     </th>
-	//                     <th>
-	//                         <div className="Qn mc  centered" title="quest nugget">
-	//                             <div className="BR-Text">
-	//                                 10
-	//                             </div>
-	//                         </div>
-	//                     </th>
-	//                 </tr>
-	//             </tbody>
-	//         </table>
-	//         </div>
-	//     </div>
-	// );
 };
 
 export default TraderTable;

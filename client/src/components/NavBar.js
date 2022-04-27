@@ -7,13 +7,13 @@ import {useNavigate} from "react-router-dom";
 import UpdateTrader from './UpdateTrader';
 
 const NavBar = (props) => {
-    const {traderName} = props;
+    const {traderList} = props;
     // const {theTraderId, setTheTraderId} = props;
     const navigate = useNavigate();
     const {removeFromDom} = props;
     const [deleted, setDeleted] = useState(false);
-    console.log("navbar logging traderName value.... it is:")
-    console.log(traderName)
+    console.log("navbar logging traderList value.... it is:")
+    console.log(traderList)
     
     const onDeleteHandler=(e, traderId) => {
         console.log("in on delete handler." , traderId);
@@ -32,21 +32,21 @@ const NavBar = (props) => {
 
 return (
     <nav className="hideScroll sidenav"> 
-    {props.traderName ? 
-        props.traderName.map((trader, index)=>{
+    {props.traderList ? 
+        props.traderList.map((trader, index)=>{
                 return(
                     
                     <div key = {index}>
-                        <p>{trader._id}</p>
+                        {/* <p>{trader._id}</p> */}
                         {/* {setTheTraderId = trader._id}; */}
                         <a href="#{trader.name}">{trader.name}</a> 
-                        <Link to = {`/traders/${trader._id}`} > Edit Trader
-                            {/* <button> edit trader</button> */}
+                        <Link to = {`/traders/${trader._id}`} >
+                            <button> edit trader</button>
                         </Link>
                         <button onClick={(e)=> onDeleteHandler(e,trader._id)}>
                             Delete
                         </button>
-                        {/* <Deleter removeFromDom={removeFromDom} traderName= {traderName}id = {traderName.id} /> */}
+                        {/* <Deleter removeFromDom={removeFromDom} traderList= {traderList}id = {traderList.id} /> */}
                     </div>
                     
             )})

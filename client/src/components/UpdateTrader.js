@@ -3,8 +3,9 @@ import axios from 'axios';
 import {useNavigate} from "react-router-dom";
 import {useParams} from 'react-router-dom';
 const UpdateTrader = (props) => {
-    const { traderName, setTraderName } = props;
+    const { traderList, setTraderList } = props;
     const {id} = useParams();
+    const navigate = useNavigate();
     const [name, setName] = useState("");
     const [want, setWant] = useState("");
     const [give, setGive] = useState("");
@@ -53,7 +54,9 @@ const UpdateTrader = (props) => {
                     <input type="text" 
                     name="name" 
                     value={name} 
-                    onChange={(e) => { setName(e.target.value) }} />
+                    onChange={(e) => { setName(e.target.value) }}
+                    />
+                    
                     {
                     errors.name ?
                     <p>{errors.name.message}</p>

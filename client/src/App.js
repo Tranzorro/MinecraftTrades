@@ -13,12 +13,12 @@ import UpdateTrader from './components/UpdateTrader';
 // table input is not used as main app functions.
 
 function App(props) {
-	const [traderName, setTraderName] = useState([]);
+	const [traderList, setTraderList] = useState([]);
 	// const [theTraderId, setTheTraderId] = useState();
-	console.log("app.js logging traderName State. value is...")
-	console.log(traderName);
+	console.log("app.js logging traderList State. value is...")
+	console.log(traderList);
 	const removeFromDom = traderId => {
-		setTraderName(traderName.filter(trader => trader._id != traderId));
+		setTraderList(traderList.filter(trader => trader._id != traderId));
 		//may need work on above line 						 ^ maybe !==
 	}
 	useEffect(() =>{
@@ -26,7 +26,7 @@ function App(props) {
         .then((res)=>{
             // console.log(res);
             console.log(res.data);
-            setTraderName(res.data);
+            setTraderList(res.data);
         })
         .catch((err)=>console.log(err))
         
@@ -41,10 +41,10 @@ function App(props) {
 			
 
 			<Routes>
-			<Route element={<HomePage traderName={traderName} setTraderName={setTraderName} nav={<NavBar removeFromDom={removeFromDom} traderName={traderName} setTraderName={setTraderName} />} trade={<TraderTable traderName={traderName} setTraderName={setTraderName} />} />} path="/" />
+			<Route element={<HomePage traderList={traderList} setTraderList={setTraderList} nav={<NavBar removeFromDom={removeFromDom} traderList={traderList} setTraderList={setTraderList} />} trade={<TraderTable traderList={traderList} setTraderList={setTraderList} />} />} path="/" />
 			{/* <Route element={<TraderTable  />} path="/api/traders/:id"/> */}
-			<Route element={<UpdateTrader traderName={traderName} setTraderName={setTraderName} />} path="/traders/:id" />
-			<Route element={<TraderForm traderName={traderName} setTraderName={setTraderName}/>} path="/traders/create" />
+			<Route element={<UpdateTrader traderList={traderList} setTraderList={setTraderList} />} path="/traders/:id" />
+			<Route element={<TraderForm traderList={traderList} setTraderList={setTraderList}/>} path="/traders/create" />
 
 			</Routes>
 		</div>
