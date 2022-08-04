@@ -563,6 +563,9 @@
 .DOakLog{
     background-image: url('images/minecraft textures/block/dark_oak_log.png');
 }
+.ManLog{
+    background-image: url('images/minecraft textures/block/mangrove_log.png');
+}
 .Ice{
     background-image: url('images/minecraft textures/block/ice.png');
 }
