@@ -623,6 +623,9 @@
 .WitherRose{
     background-image: url('images/minecraft textures/block/wither_rose.png');
 }
+.RDye{
+    background-image: url('images/minecraft textures/item/red_dye.png');
+}
 .Pumpkin{
     background-image: url('images/minecraft textures/block/pumpkin_side.png');
 }
@@ -679,6 +682,9 @@
 }
 .BlackStone{
     background-image: url('images/minecraft textures/block/blackstone.png');
+}
+.GBlackStone{
+    background-image: url('images/minecraft textures/block/gilded_blackstone.png');
 }
 .Granite{
     background-image: url('images/minecraft textures/block/granite.png');
